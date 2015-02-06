@@ -28,7 +28,7 @@ public class Billetautomat {
 		int pris = billetpris;
 		balance = startbalance;
 		total = 0;
-		antalBiletterSolgt = 0;
+		antalBilletterSolgt = 0;
 	}
 
 	/**

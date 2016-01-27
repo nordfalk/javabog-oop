@@ -20,8 +20,7 @@ public class Kontoklient {
 		URL url = new URL("http://localhost:9901/kontotjeneste?wsdl");
 		QName qname = new QName("http://kapitel_19_ws/", "KontoImplService");
 		Service service = Service.create(url, qname);
-		qname = new QName("http://kapitel_19_ws/", "KontoImplPort");
-		KontoI k = service.getPort(qname, KontoI.class);
+		KontoI k = service.getPort(KontoI.class);
     
     k.overførsel(100);
     k.overførsel(50);

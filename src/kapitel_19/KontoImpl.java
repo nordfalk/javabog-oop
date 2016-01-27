@@ -25,7 +25,7 @@ public class KontoImpl extends UnicastRemoteObject implements KontoI
 		return saldo;
 	}
 
-	public ArrayList bevægelser()
+	public ArrayList<String> bevægelser()
 	{
 		System.out.println("Der spørges på alle bevægelser.");
 		return bevægelser;

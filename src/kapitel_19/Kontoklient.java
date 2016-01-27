@@ -1,5 +1,6 @@
 package kapitel_19;
 import java.rmi.Naming;
+import java.util.ArrayList;
 
 public class Kontoklient
 {
@@ -13,7 +14,7 @@ public class Kontoklient
 		k.overførsel(-200);
 		k.overførsel(51);
 		System.out.println( "Saldo er: "+ k.saldo() );
-		java.util.ArrayList bevægelser = k.bevægelser();
+		ArrayList<String> bevægelser = k.bevægelser();
 
 		System.out.println( "Bevægelser er: "+ bevægelser );
 	}

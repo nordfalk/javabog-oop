@@ -20,15 +20,17 @@ public class Gade2 extends Grund2
 
 	public void landet(Spiller sp)
 	{
-		super.landet(sp);                        // brug gamle landet()
 		if (sp==ejer)
 		{                                        // eget felt; byg hus?
+			sp.besked("Du er landet på "+navn);
 			if (antalHuse<5 && sp.konto>huspris && sp.spørgsmål("købe hus for "+pris))
 			{                                     // byg et hus
 				ejer.transaktion( -huspris );
 				antalHuse = antalHuse + 1;
 				sp.besked("Du bygger hus på "+navn+" for "+huspris);
 			}
+		} else {
+			super.landet(sp);                      // brug gamle landet()
 		}
 	}
 }

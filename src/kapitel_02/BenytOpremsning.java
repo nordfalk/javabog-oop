@@ -4,22 +4,19 @@ public class BenytOpremsning
 
 	public enum Ugedag
 	{
-	  MANDAG, TIRSDAG, ONSDAG, TORSDAG, FREDAG, LøRDAG, SøNDAG;
+		MANDAG(false), TIRSDAG(false), ONSDAG(false), TORSDAG(false),
+		FREDAG(false), LØRDAG(true), SØNDAG(true);         // brug konstruktør
+
+		private boolean fri;                               // variabel (felt)
+
+		Ugedag(boolean weekend) { fri = weekend; } // konstruktør
+
+		public boolean harFri() { return fri; }            // metode
 	}
 
-	public static void main(String[] arg) 
+	public static void main(String[] arg)
 	{
 		Ugedag dag = Ugedag.ONSDAG;
-
-		switch (dag) {
-			case LøRDAG:
-			case SøNDAG:
-				System.out.println("Hurra, det er "+dag);
-				break;
-			default:
-				System.out.println("øv, det er "+dag);
-		}
-		int n = Ugedag.LøRDAG.ordinal()-dag.ordinal();
-		System.out.println("Der er "+n+" dage til weekend.");
+		System.out.println("Har fri "+dag+": "+dag.harFri());
 	}
 }

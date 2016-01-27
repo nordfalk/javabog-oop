@@ -23,14 +23,16 @@ public class Person
 	public void præsentation()
 	{
 		if (alder < 5) System.out.println("agyyy!");
-		else System.out.println("Jeg hedder "+fornavn+" og jeg er "+alder+" år.");
+		else if (alder < 70) System.out.println("Jeg er "+fornavn+" på "+alder);
+		else System.out.println("Jeg er hr. "+efternavn+" på "+alder+" år.");
 	}
 
 	public void hils(Person andenPerson)
 	{
 		if (alder < 5) System.out.print("ma ma.. ");
-		else if (alder < 60) System.out.print("Hej "+andenPerson.fornavn+". ");
-		else	System.out.print("Goddag, hr. "+andenPerson.efternavn+". ");
+		else if (andenPerson.alder < 10) System.out.print("Hej lille "+andenPerson.fornavn+".");
+		else if (alder < 70) System.out.print("Hej "+andenPerson.fornavn+". ");
+		else System.out.print("Goddag, hr. "+andenPerson.efternavn+". ");
 
 		præsentation();
 	}

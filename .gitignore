@@ -1,0 +1,12 @@
+build.xml
+oop_jdeveloper.jpr
+/nbproject/
+/build/
+/classes/
+/dist/
+/.settings/
+/model/oop_jdeveloper/personer_og_konti.java_diagram
+/skrevet fil.txt
+/venner.ser
+/test/kapitel_04/BilletautomatNormalprisTest.java
+/data.ser

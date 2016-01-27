@@ -4,14 +4,11 @@ import java.rmi.server.UnicastRemoteObject;
 
 public class KontoImpl extends UnicastRemoteObject implements KontoI
 {
-	public int saldo;
-	public ArrayList bevægelser;
+	private int saldo = 100; // man starter med 100 kroner
+	private ArrayList<String> bevægelser = new ArrayList<>();
 
 	public KontoImpl() throws java.rmi.RemoteException 
 	{
-		// man starter med 100 kroner
-		saldo = 100;
-		bevægelser = new ArrayList();
 	}
 
 	public void overførsel(int kroner)

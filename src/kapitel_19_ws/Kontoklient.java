@@ -7,6 +7,7 @@ package kapitel_19_ws;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
 
@@ -20,8 +21,16 @@ public class Kontoklient {
 		QName qname = new QName("http://kapitel_19_ws/", "KontoImplService");
 		Service service = Service.create(url, qname);
 		qname = new QName("http://kapitel_19_ws/", "KontoImplPort");
-		KontoI tv = service.getPort(qname, KontoI.class);
-		System.out.println(tv.c2f(37.0));
-		System.out.println(tv.f2c(212.0));
+		KontoI k = service.getPort(qname, KontoI.class);
+    
+    k.overførsel(100);
+    k.overførsel(50);
+		System.out.println( "Saldo er: "+ k.saldo() );
+		k.overførsel(-200);
+		k.overførsel(51);
+		System.out.println( "Saldo er: "+ k.saldo() );
+		ArrayList<String> bevægelser = k.bevægelser();
+
+		System.out.println( "Bevægelser er: "+ bevægelser );
 	}
 }

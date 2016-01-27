@@ -1,15 +1,30 @@
 package kapitel_19_ws;
 
+import java.util.ArrayList;
 import javax.jws.WebService;
 
 @WebService(endpointInterface = "kapitel_19_ws.KontoI")
 public class KontoImpl implements KontoI {
-	public double c2f(double degrees) {
-		return degrees * 9.0 / 5.0 + 32;
+	private int saldo = 100; // man starter med 100 kroner
+	private ArrayList<String> bevægelser = new ArrayList<>();
+
+	public void overførsel(int kroner)
+	{
+		saldo = saldo + kroner;
+		String s = "Overførsel på "+kroner+" kr. Ny saldo er "+saldo+" kr.";
+		bevægelser.add(s);
+		System.out.println(s);
 	}
 
-	public double f2c(double degrees) {
-		System.out.println("f2c blev kaldt!! med "+degrees);
-		return (degrees - 32) * 5.0 / 9.0;
+	public int saldo()
+	{
+		System.out.println("Der spørges om saldoen. Den er "+saldo+" kr.");
+		return saldo;
+	}
+
+	public ArrayList<String> bevægelser()
+	{
+		System.out.println("Der spørges på alle bevægelser.");
+		return bevægelser;
 	}
 }

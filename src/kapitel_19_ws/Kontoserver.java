@@ -5,9 +5,9 @@ import javax.xml.ws.Endpoint;
 class Kontoserver {
 	public static void main(String[] args) {
 		System.out.println("publicerer kontotjeneste");
-		Endpoint.publish("http://[::]:9901/kontotjeneste", new KontoImpl());
-// listen on all Ipv6 addresses
-// use 0.0.0.0 for Ipv4 or use hostname
+		KontoI k = new KontoImpl();
+    // Ipv6-addressen [::] svarer til Ipv4-adressen 0.0.0.0, der matcher alle maskinens netkort og adresser
+		Endpoint.publish("http://[::]:9901/kontotjeneste", k);
 		System.out.println("Kontotjeneste publiceret.");
 	}
 }

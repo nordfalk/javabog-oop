@@ -2,7 +2,7 @@ package kapitel_18;
 import java.io.*;
 public class Serialisering
 {
-	public static void gem(Object obj, String filnavn) throws IOException
+	public static void gem(Serializable obj, String filnavn) throws IOException
 	{
 		FileOutputStream datastrøm = new FileOutputStream(filnavn);
 		ObjectOutputStream objektstrøm = new ObjectOutputStream(datastrøm);
@@ -10,11 +10,11 @@ public class Serialisering
 		objektstrøm.close();
 	}
 
-	public static Object hent(String filnavn) throws Exception
+	public static Serializable hent(String filnavn) throws Exception
 	{
 		FileInputStream datastrøm = new FileInputStream(filnavn);
 		ObjectInputStream objektstrøm = new ObjectInputStream(datastrøm);
-		Object obj = objektstrøm.readObject();
+		Serializable obj = (Serializable) objektstrøm.readObject();
 		objektstrøm.close();
 		return obj;
 	}

@@ -1,5 +1,5 @@
 //Malene Andersen
-package loesninger.konti_malene;
+package loesninger.konti1;
 
 public class Bil {
 	private int bilværdi;

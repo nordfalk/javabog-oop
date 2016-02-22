@@ -12,6 +12,7 @@ import javax.xml.ws.Service;
  */
 public class Kontoklient {
 	public static void main(String[] args) throws MalformedURLException {
+//		URL url = new URL("http://ubuntu4.javabog.dk:9901/kontotjeneste?wsdl");
 		URL url = new URL("http://localhost:9901/kontotjeneste?wsdl");
 		QName qname = new QName("http://kapitel_19_ws/", "KontoImplService");
 		Service service = Service.create(url, qname);
@@ -28,3 +29,13 @@ public class Kontoklient {
 		System.out.println( "Bevægelser er: "+ bevægelser );
 	}
 }
+/*
+	long tid = System.currentTimeMillis();
+	for (int i=0; i<100; i++) {
+		k.overførsel(1);
+		k.overførsel(-1);
+	}
+	long dt = System.currentTimeMillis() - tid;
+	System.out.println( "Kørselstiden for RMI var: "+ dt );
+
+*/

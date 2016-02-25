@@ -1,5 +1,4 @@
 package kapitel_14;
-import kapitel_05.*;
 import java.util.ArrayList;
 public class SimpelException2
 {
@@ -13,7 +12,7 @@ public class SimpelException2
 			l.get(5);
 			System.out.println("Punkt C");           // punkt C
 		}
-		catch (Exception u)
+		catch (Exception e)
 		{
 			System.out.println("Der opstod en exception!");
 		}

@@ -20,8 +20,8 @@ public class SumMedTastatur2
 					sum = sum + t.læsTal();
 				}
 				System.out.println("Summen er: "+sum);
-			} 	catch (Exception u) {
-				System.out.println("Indtastningsfejl - " + u);
+			} catch (Exception e) {
+				System.out.println("Indtastningsfejl - " + e);
 			}
 			System.out.print("Vil du prøve igen (j/n)? ");
 			if ("n".equals(t.læsLinje())) stop = true;

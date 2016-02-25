@@ -1,5 +1,4 @@
 package kapitel_14;
-import kapitel_05.*;
 import java.util.ArrayList;
 
 public class SimpelException

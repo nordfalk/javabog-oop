@@ -22,9 +22,9 @@ public class SumMedTastatur
 				System.out.print("Vil du prøve igen (j/n)? ");
 				if ("n".equals(t.læsLinje())) stop = true; // undersøg om det er "n"
 			}
-		} 	catch (Exception u) {
+		} catch (Exception e) {
 			System.out.println("Der opstod en exception!");
-			u.printStackTrace();
+			e.printStackTrace();
 		}
 	}
 }

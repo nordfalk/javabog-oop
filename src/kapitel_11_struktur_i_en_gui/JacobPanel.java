@@ -50,11 +50,6 @@ public class JacobPanel extends javax.swing.JPanel {
 
     jTextAreaDom.setColumns(20);
     jTextAreaDom.setRows(5);
-    jTextAreaDom.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-      public void mouseMoved(java.awt.event.MouseEvent evt) {
-        musOverTekstarea(evt);
-      }
-    });
     jScrollPane1.setViewportView(jTextAreaDom);
 
     jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Søren", "Jacob", "Bo", "Ib" }));
@@ -67,7 +62,7 @@ public class JacobPanel extends javax.swing.JPanel {
     jButton1.setText("Skift fane");
     jButton1.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(java.awt.event.ActionEvent evt) {
-        denNyeKnapBlevTrykket(evt);
+        skiftFane(evt);
       }
     });
 
@@ -119,8 +114,7 @@ public class JacobPanel extends javax.swing.JPanel {
 
   private void okKnapActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_okKnapActionPerformed
 
-
-		System.out.println("huraaaaaaa!");
+		System.out.println("okKnapActionPerformed blev kaldt");
 		int kloghed = kloghedsinidkator.getValue();
 		boolean ærlig = ærlighedindikator.isSelected();
 
@@ -136,30 +130,19 @@ public class JacobPanel extends javax.swing.JPanel {
 
   }//GEN-LAST:event_okKnapActionPerformed
 
-  private void musOverTekstarea(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_musOverTekstarea
-    // TODO add your handling code here:
-
-		System.out.println("musOverTekstarea " + evt.toString() );
-
-  }//GEN-LAST:event_musOverTekstarea
-
   private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
-    // TODO add your handling code here:
-
 		if (jComboBox1.getSelectedIndex()<3) {
 			okKnap.setEnabled(true);
 		} else {
 			okKnap.setEnabled(false);
 		}
-
   }//GEN-LAST:event_jComboBox1ActionPerformed
 
-  private void denNyeKnapBlevTrykket(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_denNyeKnapBlevTrykket
+  private void skiftFane(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_skiftFane
 		// TODO add your handling code here:
-		System.out.println("denNyeKnapBlevTrykket");
-		ejer.sætFane(0);
-		
-  }//GEN-LAST:event_denNyeKnapBlevTrykket
+		System.out.println("skiftFane blev trykket");
+		ejer.sætFane(0);		
+  }//GEN-LAST:event_skiftFane
 
 
 

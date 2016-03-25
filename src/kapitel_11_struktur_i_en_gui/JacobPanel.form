@@ -107,9 +107,6 @@
             <Property name="columns" type="int" value="20"/>
             <Property name="rows" type="int" value="5"/>
           </Properties>
-          <Events>
-            <EventHandler event="mouseMoved" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="musOverTekstarea"/>
-          </Events>
         </Component>
       </SubComponents>
     </Container>
@@ -133,7 +130,7 @@
         <Property name="text" type="java.lang.String" value="Skift fane"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="denNyeKnapBlevTrykket"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="skiftFane"/>
       </Events>
     </Component>
   </SubComponents>

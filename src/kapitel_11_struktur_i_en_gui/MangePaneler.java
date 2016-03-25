@@ -13,6 +13,13 @@ public class MangePaneler extends javax.swing.JPanel {
 	public MangePaneler() {
 		initComponents();
 		jacobPanel1.ejer = this;
+    /*
+		jTabbedPane1.setUI(new javax.swing.plaf.basic.BasicTabbedPaneUI() {
+			protected int calculateTabAreaHeight(int t, int h, int m) {
+				return 0;
+			}
+		});
+    */
 	}
 
 	public void sætFane(int fane) {

@@ -14,10 +14,10 @@ public class BenytTegnbareObjekter
 		bæger.tilføjTerning(t1);
 		bæger.tilføjTerning(t2);
 
+		panel.tegnbareObjekter.add(stjerne);
 		panel.tegnbareObjekter.add(t1);
 		panel.tegnbareObjekter.add(t2);
 		panel.tegnbareObjekter.add(bæger);
-		panel.tegnbareObjekter.add(stjerne);
 		panel.tegnbareObjekter.add( new Rektangel(20,30) );
 		panel.tegnbareObjekter.add( new Rektangel(30,20) );
     

@@ -21,6 +21,7 @@ public class Formelberegning
 
 	public static double beregn(String udtryk)
 	{
+		System.out.println("  beregn("+udtryk+") blev kaldt");
 		udtryk = udtryk.trim();                  // fjern overflødige blanktegn
 		for (int opNr = 0; opNr < 4; opNr++)     // løb gennem de fire regnearter
 		{

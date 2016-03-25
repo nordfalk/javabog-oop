@@ -24,7 +24,9 @@ public class LaesTekstfil
     */    
 //Se mere på http://www.javapractices.com/topic/TopicAction.do?Id=42
 	
-		String linjerx = new String(Files.readAllBytes(Paths.get("skrevet fil.txt")));
+		String linjerstr = new String(Files.readAllBytes(Paths.get("skrevet fil.txt")));
+		System.out.println("linjerstr="+ linjerstr);
+		System.out.println("linjerstr.split(\"\\n\")[2]="+linjerstr.split("\n")[2]);
 
 		//FileReader fil = new FileReader("skrevet fil.txt");
 		//BufferedReader ind = new BufferedReader(fil);

@@ -5,7 +5,7 @@ public class BenytBoks2
 	{
 		Boks2 enBoks = new Boks2();
 
-		//ulovligt: enBoks.længde = 1.5;
+		//ulovligt:	enBoks.længde = 1.5;
 		//ulovligt: enBoks.bredde = 1.0;
 		//ulovligt: enBoks.højde  = 1.0;
 

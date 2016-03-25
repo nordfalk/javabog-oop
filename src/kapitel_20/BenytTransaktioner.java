@@ -7,6 +7,7 @@ public class BenytTransaktioner
 		// Udskift med din egen databasedriver og -URL
 		Class.forName("com.mysql.jdbc.Driver");
 		Connection forb = DriverManager.getConnection("jdbc:mysql:///test");
+    //forb.setTransactionIsolation(Connection.TRANSACTION_READ_UNCOMMITTED);
 		forb.setAutoCommit(false);
 		Statement stmt = forb.createStatement();
 		System.out.println("forb.getTransactionIsolation() "+ forb.getTransactionIsolation());

@@ -19,3 +19,12 @@ public class Kontoklient
 		System.out.println( "Bevægelser er: "+ bevægelser );
 	}
 }
+/*
+	long tid = System.currentTimeMillis();
+	for (int i=0; i<100; i++) {
+		k.overførsel(1);
+		k.overførsel(-1);
+	}
+	long dt = System.currentTimeMillis() - tid;
+	System.out.println( "Kørselstiden for RMI var: "+ dt );
+*/

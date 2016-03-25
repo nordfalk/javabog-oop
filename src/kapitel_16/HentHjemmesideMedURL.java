@@ -5,7 +5,7 @@ public class HentHjemmesideMedURL
 {
 	public static void main(String[] arg) throws IOException
 	{
-		URL url = new URL("http://www.esperanto.dk");
+		URL url = new URL("http://esperanto.dk");
 		InputStream is = url.openStream();
 		BufferedReader ind = new BufferedReader(new InputStreamReader(is, "UTF-8"));
 		String s = ind.readLine();

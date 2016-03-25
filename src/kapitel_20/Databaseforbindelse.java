@@ -8,9 +8,8 @@ public class Databaseforbindelse
 
 	public Databaseforbindelse() throws Exception
 	{
-		Class.forName("oracle.jdbc.driver.OracleDriver");
-		Connection forb = DriverManager.getConnection(
-			"jdbc:oracle:thin:@oracle.cv.ihk.dk:1521:student","brugernavn","kode");
+		Class.forName("com.mysql.jdbc.Driver");
+		Connection forb = DriverManager.getConnection("jdbc:mysql:///test");
 		stmt = forb.createStatement();
 	}
 

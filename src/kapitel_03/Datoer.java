@@ -1,6 +1,8 @@
 package kapitel_03;
 // Datoer.java
 // Viser brugen af Date-klassen og dens metoder.
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date; // Date-klassen er i pakken java.util
 
 public class Datoer
@@ -28,5 +30,11 @@ public class Datoer
 		// Hvornår var han halvt så gammel?
 		jacob.setTime(nuMs - alderMs/2);
 		System.out.println("Jacob var halvt så gammel "+jacob);
+
+		SimpleDateFormat df = new SimpleDateFormat("d/m yyyy");
+		System.out.println("Jacob var halvt så gammel d. "+df.format(jacob));
+
+		System.out.println("Jacob var halvt så gammel "+DateFormat.getInstance().format(jacob));
+
 	}
 }

@@ -13,10 +13,12 @@ public class KontoImpl extends UnicastRemoteObject implements KontoI
 
 	public void overførsel(int kroner)
 	{
-		saldo = saldo + kroner;
-		String s = "Overførsel på "+kroner+" kr. Ny saldo er "+saldo+" kr.";
+		int nySaldo = saldo + kroner; // her beregnes ny saldo
+		String s = "Overførsel på "+kroner+" kr. Ny saldo er "+nySaldo+" kr.";
 		bevægelser.add(s);
 		System.out.println(s);
+		//try { Thread.sleep(500); } catch (InterruptedException ex) { } // transaktionen gemmes
+		saldo = nySaldo; // her er transaktionen gemt
 	}
 
 	public int saldo()

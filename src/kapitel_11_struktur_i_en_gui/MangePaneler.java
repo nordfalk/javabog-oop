@@ -28,88 +28,61 @@ public class MangePaneler extends javax.swing.JPanel {
   // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
   private void initComponents() {
 
-    buttonGroup1 = new javax.swing.ButtonGroup();
     jTabbedPane1 = new javax.swing.JTabbedPane();
     java2DDemo1 = new kapitel_09.Java2DDemo();
     grafikpanel1 = new kapitel_09.Grafikpanel();
     grafikpanel2 = new kapitel_09.Grafikpanel();
     jacobPanel1 = new kapitel_11_struktur_i_en_gui.JacobPanel();
-    jRadioButton2 = new javax.swing.JRadioButton();
+
+    setLayout(new java.awt.BorderLayout());
 
     javax.swing.GroupLayout java2DDemo1Layout = new javax.swing.GroupLayout(java2DDemo1);
     java2DDemo1.setLayout(java2DDemo1Layout);
     java2DDemo1Layout.setHorizontalGroup(
       java2DDemo1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGap(0, 423, Short.MAX_VALUE)
+      .addGap(0, 491, Short.MAX_VALUE)
     );
     java2DDemo1Layout.setVerticalGroup(
       java2DDemo1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGap(0, 309, Short.MAX_VALUE)
+      .addGap(0, 306, Short.MAX_VALUE)
     );
 
-    jTabbedPane1.addTab("tab3", java2DDemo1);
+    jTabbedPane1.addTab("Java 2D demo", java2DDemo1);
 
     javax.swing.GroupLayout grafikpanel1Layout = new javax.swing.GroupLayout(grafikpanel1);
     grafikpanel1.setLayout(grafikpanel1Layout);
     grafikpanel1Layout.setHorizontalGroup(
       grafikpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGap(0, 423, Short.MAX_VALUE)
+      .addGap(0, 491, Short.MAX_VALUE)
     );
     grafikpanel1Layout.setVerticalGroup(
       grafikpanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGap(0, 309, Short.MAX_VALUE)
+      .addGap(0, 306, Short.MAX_VALUE)
     );
 
-    jTabbedPane1.addTab("tab4", grafikpanel1);
+    jTabbedPane1.addTab("Grafikpanel 1", grafikpanel1);
 
     javax.swing.GroupLayout grafikpanel2Layout = new javax.swing.GroupLayout(grafikpanel2);
     grafikpanel2.setLayout(grafikpanel2Layout);
     grafikpanel2Layout.setHorizontalGroup(
       grafikpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGap(0, 423, Short.MAX_VALUE)
+      .addGap(0, 491, Short.MAX_VALUE)
     );
     grafikpanel2Layout.setVerticalGroup(
       grafikpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGap(0, 309, Short.MAX_VALUE)
+      .addGap(0, 306, Short.MAX_VALUE)
     );
 
-    jTabbedPane1.addTab("tab5", grafikpanel2);
-    jTabbedPane1.addTab("tab6", jacobPanel1);
+    jTabbedPane1.addTab("Grafikpanel 2", grafikpanel2);
+    jTabbedPane1.addTab("JacobPanel", jacobPanel1);
 
-    buttonGroup1.add(jRadioButton2);
-    jRadioButton2.setText("jRadioButton2");
-
-    javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
-    this.setLayout(layout);
-    layout.setHorizontalGroup(
-      layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGroup(layout.createSequentialGroup()
-        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-          .addGroup(layout.createSequentialGroup()
-            .addGap(858, 858, 858)
-            .addComponent(jRadioButton2))
-          .addGroup(layout.createSequentialGroup()
-            .addContainerGap()
-            .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 431, javax.swing.GroupLayout.PREFERRED_SIZE)))
-        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-    );
-    layout.setVerticalGroup(
-      layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGroup(layout.createSequentialGroup()
-        .addContainerGap(273, Short.MAX_VALUE)
-        .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 347, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addGap(155, 155, 155)
-        .addComponent(jRadioButton2)
-        .addGap(23, 23, 23))
-    );
+    add(jTabbedPane1, java.awt.BorderLayout.CENTER);
   }// </editor-fold>//GEN-END:initComponents
   // Variables declaration - do not modify//GEN-BEGIN:variables
-  private javax.swing.ButtonGroup buttonGroup1;
   private kapitel_09.Grafikpanel grafikpanel1;
   private kapitel_09.Grafikpanel grafikpanel2;
-  private javax.swing.JRadioButton jRadioButton2;
   private javax.swing.JTabbedPane jTabbedPane1;
-  public kapitel_11_struktur_i_en_gui.JacobPanel jacobPanel1;
+  private kapitel_11_struktur_i_en_gui.JacobPanel jacobPanel1;
   private kapitel_09.Java2DDemo java2DDemo1;
   // End of variables declaration//GEN-END:variables
 }

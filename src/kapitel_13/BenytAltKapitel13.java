@@ -15,7 +15,7 @@ public class BenytAltKapitel13
 
 		JFrame vindue = new JFrame("BenytAltKapitel13");
 		vindue.add( faneblade );
-		vindue.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE); // reagér på luk
+		vindue.addWindowListener(new LukProgram()); // reagér på luk
 		vindue.pack();                  // lad vinduet selv bestemme sin størrelse
 		vindue.setVisible(true);                                  // åbn vinduet
 	}

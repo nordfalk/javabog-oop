@@ -24,6 +24,6 @@ public class Boks2
 	{
 		double vol;
 		vol = længde*bredde*højde;
-		return vol; 
+		return vol;
 	}
 }

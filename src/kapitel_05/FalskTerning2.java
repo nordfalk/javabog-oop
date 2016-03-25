@@ -9,6 +9,7 @@ public class FalskTerning2 extends Terning
 		snydeværdi = nySnydeværdi;
 	}
 
+  @Override
 	public void kast()
 	{
 		//System.out.println("[kast() på FalskTerning2] ");
@@ -18,6 +19,6 @@ public class FalskTerning2 extends Terning
 		// 1 eller 2? Så lav det om til snydeværdi!
 		if ( værdi <= 2 ) værdi = snydeværdi;
 
-		setVærdi(værdi); // sæt værdien på terningen 
+		setVærdi(værdi); // sæt værdien på terningen
 	}
 }

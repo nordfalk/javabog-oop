@@ -14,6 +14,6 @@ public class FalskTerning1 extends Terning
 		// er det 1 eller 2? Så lav det om til 6!
 		if ( værdi <= 2 ) værdi = 6;
 
-		setVærdi(værdi); // sæt værdien på terningen 
+		setVærdi(værdi); // sæt værdien på terningen
 	}
 }

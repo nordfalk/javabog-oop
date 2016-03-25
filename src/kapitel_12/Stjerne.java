@@ -12,6 +12,6 @@ public class Stjerne implements Tegnbar
 
 	public void tegn(Graphics g)            // kræves af interfacet Tegnbar
 	{
-		g.drawString("*",posX,posY);
+		g.drawString("* STJERNE *",posX,posY);
 	}
 }

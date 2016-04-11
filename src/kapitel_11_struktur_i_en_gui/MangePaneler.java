@@ -12,7 +12,7 @@ public class MangePaneler extends javax.swing.JPanel {
 	/** Creates new form MangePaneler */
 	public MangePaneler() {
 		initComponents();
-		jacobPanel1.ejer = this;
+		this.jacobPanel1.ejer = this;
     /*
 		jTabbedPane1.setUI(new javax.swing.plaf.basic.BasicTabbedPaneUI() {
 			protected int calculateTabAreaHeight(int t, int h, int m) {
@@ -36,25 +36,12 @@ public class MangePaneler extends javax.swing.JPanel {
   private void initComponents() {
 
     jTabbedPane1 = new javax.swing.JTabbedPane();
-    java2DDemo1 = new kapitel_09.Java2DDemo();
     grafikpanel1 = new kapitel_09.Grafikpanel();
-    grafikpanel2 = new kapitel_09.Grafikpanel();
+    grafikdemo1 = new kapitel_09.Grafikdemo();
     jacobPanel1 = new kapitel_11_struktur_i_en_gui.JacobPanel();
+    java2DDemo1 = new kapitel_09.Java2DDemo();
 
     setLayout(new java.awt.BorderLayout());
-
-    javax.swing.GroupLayout java2DDemo1Layout = new javax.swing.GroupLayout(java2DDemo1);
-    java2DDemo1.setLayout(java2DDemo1Layout);
-    java2DDemo1Layout.setHorizontalGroup(
-      java2DDemo1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGap(0, 491, Short.MAX_VALUE)
-    );
-    java2DDemo1Layout.setVerticalGroup(
-      java2DDemo1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGap(0, 306, Short.MAX_VALUE)
-    );
-
-    jTabbedPane1.addTab("Java 2D demo", java2DDemo1);
 
     javax.swing.GroupLayout grafikpanel1Layout = new javax.swing.GroupLayout(grafikpanel1);
     grafikpanel1.setLayout(grafikpanel1Layout);
@@ -67,27 +54,41 @@ public class MangePaneler extends javax.swing.JPanel {
       .addGap(0, 306, Short.MAX_VALUE)
     );
 
-    jTabbedPane1.addTab("Grafikpanel 1", grafikpanel1);
+    jTabbedPane1.addTab("tab2", grafikpanel1);
 
-    javax.swing.GroupLayout grafikpanel2Layout = new javax.swing.GroupLayout(grafikpanel2);
-    grafikpanel2.setLayout(grafikpanel2Layout);
-    grafikpanel2Layout.setHorizontalGroup(
-      grafikpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+    javax.swing.GroupLayout grafikdemo1Layout = new javax.swing.GroupLayout(grafikdemo1);
+    grafikdemo1.setLayout(grafikdemo1Layout);
+    grafikdemo1Layout.setHorizontalGroup(
+      grafikdemo1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
       .addGap(0, 491, Short.MAX_VALUE)
     );
-    grafikpanel2Layout.setVerticalGroup(
-      grafikpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+    grafikdemo1Layout.setVerticalGroup(
+      grafikdemo1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
       .addGap(0, 306, Short.MAX_VALUE)
     );
 
-    jTabbedPane1.addTab("Grafikpanel 2", grafikpanel2);
-    jTabbedPane1.addTab("JacobPanel", jacobPanel1);
+    jTabbedPane1.addTab("tab3", grafikdemo1);
+    jTabbedPane1.addTab("tab4", jacobPanel1);
+
+    javax.swing.GroupLayout java2DDemo1Layout = new javax.swing.GroupLayout(java2DDemo1);
+    java2DDemo1.setLayout(java2DDemo1Layout);
+    java2DDemo1Layout.setHorizontalGroup(
+      java2DDemo1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+      .addGap(0, 491, Short.MAX_VALUE)
+    );
+    java2DDemo1Layout.setVerticalGroup(
+      java2DDemo1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+      .addGap(0, 306, Short.MAX_VALUE)
+    );
+
+    jTabbedPane1.addTab("tab4", java2DDemo1);
 
     add(jTabbedPane1, java.awt.BorderLayout.CENTER);
   }// </editor-fold>//GEN-END:initComponents
+
   // Variables declaration - do not modify//GEN-BEGIN:variables
+  private kapitel_09.Grafikdemo grafikdemo1;
   private kapitel_09.Grafikpanel grafikpanel1;
-  private kapitel_09.Grafikpanel grafikpanel2;
   private javax.swing.JTabbedPane jTabbedPane1;
   private kapitel_11_struktur_i_en_gui.JacobPanel jacobPanel1;
   private kapitel_09.Java2DDemo java2DDemo1;

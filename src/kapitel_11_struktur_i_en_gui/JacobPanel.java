@@ -141,7 +141,7 @@ public class JacobPanel extends javax.swing.JPanel {
   private void skiftFane(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_skiftFane
 		// TODO add your handling code here:
 		System.out.println("skiftFane blev trykket");
-		ejer.sætFane(0);		
+		ejer.sætFane(0);
   }//GEN-LAST:event_skiftFane
 
 

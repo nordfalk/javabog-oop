@@ -15,5 +15,6 @@ public class FlertraadetGrafik
 		new Bold(g, 50,10);
 		new Bold(g,100,50);
 		new Bold(g,150,90);
+    System.out.println("FÆRDIG");
   }
 }

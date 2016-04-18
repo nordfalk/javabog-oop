@@ -20,10 +20,10 @@ public class BenytTegnbareObjekter
 		panel.tegnbareObjekter.add(bæger);
 		panel.tegnbareObjekter.add( new Rektangel(20,30) );
 		panel.tegnbareObjekter.add( new Rektangel(30,20) );
-    
-		JFrame vindue = new JFrame( "TegnbareObjekter" ); 
+
+		JFrame vindue = new JFrame( "TegnbareObjekter" );
 		vindue.add( panel );
-		vindue.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+		vindue.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		vindue.setSize(300,300);
 		vindue.setVisible(true);
     int n = 1;
@@ -39,5 +39,5 @@ public class BenytTegnbareObjekter
 			try { Thread.sleep(10); } catch (Exception e) {}// vent lidt
       if (n++ % 100 == 0) bæger.ryst();
 		}
-	}	
+	}
 }

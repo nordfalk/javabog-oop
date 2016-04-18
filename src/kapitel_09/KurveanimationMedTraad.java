@@ -7,7 +7,7 @@ public class KurveanimationMedTraad extends Kurvetegning implements Runnable
 
 	public void run()
 	{
-		for (int t=0; t<100000; t++) 
+		for (int t=0; t<100000; t++)
 		{
 			forskydning = t;        // ændr forskydningen så kurven ser anderledes ud
 			repaint();      // systemet vil kalde paintComponent() (fra grafiktråden)

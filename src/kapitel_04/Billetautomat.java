@@ -32,7 +32,7 @@ public class Billetautomat {
 	}
 
 	/**
-	 * Giver prisen for en billet. 
+	 * Giver prisen for en billet.
 	 */
 	public int getBilletpris() {
 		int resultat = pris;
@@ -45,7 +45,7 @@ public class Billetautomat {
 	public void indsætPenge(int beløb) {
 		balance = balance + beløb;
 		total = total + beløb;
-    }
+	}
 
 	/**
 	 * Giver balancen (beløbet maskinen har modtaget til den næste billet).
@@ -59,19 +59,19 @@ public class Billetautomat {
 	 * Opdater total og nedskriv balancen med billetprisen
 	 */
 	public void udskrivBillet() {
-      System.out.println("##########B##T#########");
-      System.out.println("# BlueJ Trafikselskab #");
-      System.out.println("#                     #");
-      System.out.println("#        Billet       #");
-      System.out.println("#        " + pris + " kr.       #");
-      System.out.println("#                     #");
-      System.out.println("##########B##T#########");
-      System.out.println("# Du har " + balance + " kr til gode       #");
-      System.out.println("##########B##T#########");
-      System.out.println();
+		System.out.println("##########B##T#########");
+		System.out.println("# BlueJ Trafikselskab #");
+		System.out.println("#                     #");
+		System.out.println("#        Billet       #");
+		System.out.println("#        " + pris + " kr.       #");
+		System.out.println("#                     #");
+		System.out.println("##########B##T#########");
+		System.out.println("# Du har " + balance + " kr til gode       #");
+		System.out.println("##########B##T#########");
+		System.out.println();
 
-      antalBilletterSolgt = antalBilletterSolgt + 1;
-      total = total + balance; // Opdater total med balance
-      balance = 0;              // Nulstil balance
-    }
+		antalBilletterSolgt = antalBilletterSolgt + 1;
+		total = total + balance; // Opdater total med balance
+		balance = 0;              // Nulstil balance
 	}
+}

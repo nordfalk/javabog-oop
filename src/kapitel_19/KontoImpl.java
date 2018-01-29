@@ -7,7 +7,7 @@ public class KontoImpl extends UnicastRemoteObject implements KontoI
 	private int saldo = 100; // man starter med 100 kroner
 	private ArrayList<String> bevægelser = new ArrayList<>();
 
-	public KontoImpl() throws java.rmi.RemoteException 
+	public KontoImpl() throws java.rmi.RemoteException
 	{
 	}
 

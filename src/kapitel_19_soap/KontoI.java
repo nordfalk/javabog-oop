@@ -1,4 +1,4 @@
-package kapitel_19_ws;
+package kapitel_19_soap;
 import java.util.ArrayList;
 import javax.jws.WebMethod;
 import javax.jws.WebService;

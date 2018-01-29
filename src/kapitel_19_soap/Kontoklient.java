@@ -1,4 +1,4 @@
-package kapitel_19_ws;
+package kapitel_19_soap;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -12,12 +12,12 @@ import javax.xml.ws.Service;
  */
 public class Kontoklient {
 	public static void main(String[] args) throws MalformedURLException {
-//		URL url = new URL("http://ubuntu4.javabog.dk:9901/kontotjeneste?wsdl");
+//		URL url = new URL("http://ubuntu4.saluton.dk:9901/kontotjeneste?wsdl");
 		URL url = new URL("http://localhost:9901/kontotjeneste?wsdl");
-		QName qname = new QName("http://kapitel_19_ws/", "KontoImplService");
+		QName qname = new QName("http://kapitel_19_soap/", "KontoImplService");
 		Service service = Service.create(url, qname);
 		KontoI k = service.getPort(KontoI.class);
-    
+
     k.overførsel(100);
     k.overførsel(50);
 		System.out.println( "Saldo er: "+ k.saldo() );
@@ -36,6 +36,6 @@ public class Kontoklient {
 		k.overførsel(-1);
 	}
 	long dt = System.currentTimeMillis() - tid;
-	System.out.println( "Kørselstiden for RMI var: "+ dt );
+	System.out.println( "Kørselstiden for SOAP var: "+ dt );
 
 */

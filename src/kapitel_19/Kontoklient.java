@@ -6,8 +6,7 @@ public class Kontoklient
 {
 	public static void main(String[] arg) throws Exception
 	{
-		//  KontoI k =(KontoI) Naming.lookup("rmi://javabog.dk:20099/kontotjeneste");
-		KontoI k =(KontoI) Naming.lookup("rmi://localhost/kontotjeneste");
+		KontoI k =(KontoI) Naming.lookup("rmi://localhost:1099/kontotjeneste");
     k.overførsel(100);
     k.overførsel(50);
 		System.out.println( "Saldo er: "+ k.saldo() );

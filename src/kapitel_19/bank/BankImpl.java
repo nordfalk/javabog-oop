@@ -28,7 +28,7 @@ public class BankImpl extends UnicastRemoteObject implements BankI {
   @Override
   public void registrérKonto(String navn, KontoI konto) throws RemoteException {
     if (navnTilKonto.containsKey(navn)) {
-      return;
+      throw new IllegalArgumentException("Konto er allerede registreret for "+navn);
     }
     System.out.println("registrérKonto " + navn + " " + konto);
     navnTilKonto.put(navn, konto);

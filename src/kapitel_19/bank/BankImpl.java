@@ -1,15 +1,16 @@
 package kapitel_19.bank;
+
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.HashMap;
 import kapitel_19.KontoI;
 
-public class BankImpl extends UnicastRemoteObject implements BankI
-{
-	HashMap<String, KontoI> navnTilKonto = new HashMap<>();
+public class BankImpl extends UnicastRemoteObject implements BankI {
 
-	public BankImpl() throws java.rmi.RemoteException {
+  HashMap<String, KontoI> navnTilKonto = new HashMap<>();
+
+  public BankImpl() throws java.rmi.RemoteException {
   }
 
   @Override
@@ -26,8 +27,10 @@ public class BankImpl extends UnicastRemoteObject implements BankI
 
   @Override
   public void registrérKonto(String navn, KontoI konto) throws RemoteException {
-    if (navnTilKonto.containsKey(navn)) return;
-    System.out.println("registrérKonto "+navn+ " "+konto);
+    if (navnTilKonto.containsKey(navn)) {
+      return;
+    }
+    System.out.println("registrérKonto " + navn + " " + konto);
     navnTilKonto.put(navn, konto);
   }
 }

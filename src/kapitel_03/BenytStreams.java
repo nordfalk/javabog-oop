@@ -9,17 +9,6 @@ public class BenytStreams
 {
   public static void main(String[] args)
   {
-/*
-    // takes a Long, returns a String
-    Function<Long, String> f = l -> l.toString();
-
-    // takes nothing gives you Threads
-    Supplier<Thread> s =Thread::currentThread;
-
-    // takes a string as the parameter
-    Consumer<String> c = System.out::println;
-*/
-
     // I java 9 kan man også skrive: List.of("is", "sko", "bil", "hammer", "tov");
 		List<String> liste = Arrays.asList("is", "sko", "bil", "hammer", "tov");
     System.out.println("Listen indeholder:   "+liste);
@@ -50,3 +39,15 @@ public class BenytStreams
     System.out.println("\nparallelStream() slut");
   }
 }
+
+
+/*
+    // takes a Long, returns a String
+    Function<Long, String> f = l -> l.toString();
+
+    // takes nothing gives you Threads
+    Supplier<Thread> s =Thread::currentThread;
+
+    // takes a string as the parameter
+    Consumer<String> c = System.out::println;
+*/

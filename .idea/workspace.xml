@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="oop-projekt:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="28fdce36-39d3-4b19-9d4a-5dbb7b8f6606" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/oop_projekt_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kapitel_17/WebserverStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FtpOpslagstavleapplet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kurvetegningsapplet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MinApplet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_02/Alder4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_02/Alder4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_02/AlderMedTastaturindlaesning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_02/AlderMedTastaturindlaesning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_02/BenytIndtastningsvindue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_02/BenytIndtastningsvindue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_02/HejVerden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_02/HejVerden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_03/BenytStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_03/BenytStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_03/Datoer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_03/Datoer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_03/Eventyr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_03/Eventyr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_03/ListerJava8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_03/StandardmetoderTilLister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_03/StandardmetoderTilLister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_04/BenytBoks3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_04/BenytBoks3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_04/BenytTerning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_04/BenytTerning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_04/Billetautomat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_04/Billetautomat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_04/Boks3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_04/Boks3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_05/BenytMatadorspil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_05/BenytMatadorspil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_05/Matadorspil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_05/Matadorspil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_05/Spiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_05/Spiller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_09/BenytGrafikdemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_09/BenytGrafikdemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_09/BenytGrafikpanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_09/BenytGrafikpanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_09/Java2DDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_09/Java2DDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_11_struktur_i_en_gui/BenytMangePaneler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_11_struktur_i_en_gui/BenytMangePaneler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_11_struktur_i_en_gui/JacobPanel.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_11_struktur_i_en_gui/JacobPanel.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_11_struktur_i_en_gui/JacobPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_11_struktur_i_en_gui/JacobPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_12/BenytTegnbareObjekter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_12/BenytTegnbareObjekter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_12/TegnbareObjekter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_12/TegnbareObjekterPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_14/SimpelException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_14/SimpelException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_14/SimpelException2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_14/SimpelException2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_15/LaesTekstfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_15/LaesTekstfil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_15/LaesTekstfil2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_15/LaesTekstfil2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_15/SkrivTekstfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_15/SkrivTekstfil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_16/BenytFtpForbindelse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_16/BenytFtpForbindelse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_16/FtpOpslagstavleapplet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_16/FtpOpslagstavleapplet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_17/Bold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_17/Bold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_17/FlertraadetGrafik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_17/FlertraadetGrafik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_17/SnakkesagligPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_17/SnakkesagligPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_18/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_18/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_18/HentOgGemData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_18/HentOgGemData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_19/KontoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_19/KontoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_19/Kontoklient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_19/Kontoklient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_19/Kontoserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_19/Kontoserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_19/bank/BankImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_19/bank/BankImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_20/BenytTransaktioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_20/BenytTransaktioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_20/Databaseforbindelse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_20/Databaseforbindelse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_20/Kunde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_20/Kunde.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kapitel_20/SimpeltDatabaseeksempel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kapitel_20/SimpeltDatabaseeksempel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/kapitel_04/BilletautomatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/kapitel_04/BilletautomatTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/kapitel_04/BilletautomatTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/kapitel_04/BilletautomatTest2.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Grafikpanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kapitel_09/Grafikpanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BenytGrafikpanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kapitel_09/BenytGrafikpanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewJPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kapitel_09/NewJPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OverordnetPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kapitel_09/OverordnetPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JacobsBAPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kapitel_09/JacobsBAPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BenytMitJPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kapitel_11_demo/BenytMitJPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MitJPanel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/kapitel_11_demo/MitJPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="729">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+              <folding>
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#1513#1655#0" expanded="true" />
+                <element signature="e#1654#1655#0" expanded="true" />
+                <element signature="e#1920#1921#0" expanded="true" />
+                <element signature="e#1966#1967#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MitVindue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kapitel_11_demo/MitVindue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BenytGrafikdemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kapitel_09/BenytGrafikdemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kurvetegning.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kapitel_09/Kurvetegning.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LommeregnerVindue</find>
+      <find>jButton1ActionPerformed</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/kapitel_17/WebserverStreams.java" />
+        <option value="$PROJECT_DIR$/src/kapitel_17/BenytSnakkesagligePersoner.java" />
+        <option value="$PROJECT_DIR$/src/kapitel_17/Bold.java" />
+        <option value="$PROJECT_DIR$/src/kapitel_02/HejVerden.java" />
+        <option value="$PROJECT_DIR$/src/module-info.java" />
+        <option value="$PROJECT_DIR$/src/kapitel_09/Grafikpanel.java" />
+        <option value="$PROJECT_DIR$/src/kapitel_09/IntelliJForm.form" />
+        <option value="$PROJECT_DIR$/src/kapitel_09/Kurvetegning.java" />
+        <option value="$PROJECT_DIR$/src/kapitel_09/IntelliJForm.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="401" />
+    <option name="y" value="153" />
+    <option name="width" value="1293" />
+    <option name="height" value="772" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="oop-projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oop-projekt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oop-projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oop-projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oop-projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oop-projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kapitel_09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oop-projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oop-projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kapitel_11_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BenytGrafikdemo">
+    <configuration name="BenytGrafikdemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kapitel_09.BenytGrafikdemo" />
+      <module name="oop-projekt" />
+      <option name="ENABLE_SWING_INSPECTOR" value="true" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kapitel_09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="HejVerden" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kapitel_02.HejVerden" />
+      <module name="oop-projekt" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kapitel_02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.HejVerden" />
+      <item itemvalue="Application.BenytGrafikdemo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BenytGrafikdemo" />
+        <item itemvalue="Application.HejVerden" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28fdce36-39d3-4b19-9d4a-5dbb7b8f6606" name="Default" comment="" />
+      <created>1523866211915</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523866211915</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="401" y="153" width="1293" height="772" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.5607115" weight="0.32680723" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5027069" side_tool="true" visible="true" weight="0.21686748" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4972931" weight="0.21686748" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.66589326" weight="0.48343372" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19876257" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4996133" weight="0.3298193" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/kapitel_17/WebserverStreams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kapitel_02/LommeregnerVindue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#640#729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kapitel_17/BenytSnakkesagligePersoner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kapitel_17/Bold.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kapitel_02/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kapitel_12/TegnbareObjekterPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kapitel_19_soap/Kontoklient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kapitel_02/HejVerden.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kapitel_09/Grafikpanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kapitel_09/BenytGrafikpanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kapitel_09/BenytGrafikdemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kapitel_09/IntelliJForm.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kapitel_09/Kurvetegning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kapitel_09/IntelliJForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kapitel_09/NewJPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kapitel_09/OverordnetPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kapitel_09/JacobsBAPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kapitel_11_demo/BenytMitJPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kapitel_11_demo/MitVindue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kapitel_11_demo/MitJPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#1513#1655#0" expanded="true" />
+            <element signature="e#1654#1655#0" expanded="true" />
+            <element signature="e#1920#1921#0" expanded="true" />
+            <element signature="e#1966#1967#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>oop-projekt:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>oop-projekt</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

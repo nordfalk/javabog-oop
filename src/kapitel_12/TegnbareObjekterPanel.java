@@ -3,7 +3,7 @@ import java.awt.*;
 import javax.swing.*;
 import java.util.ArrayList;
 
-public class TegnbareObjekter extends JPanel
+public class TegnbareObjekterPanel extends JPanel
 {
 	ArrayList<Tegnbar> tegnbareObjekter = new ArrayList<Tegnbar>();
 

@@ -10,9 +10,8 @@ public class Kontoklient
     k.overførsel(100);
     k.overførsel(50);
 		System.out.println( "Saldo er: "+ k.saldo() );
-		k.overførsel(-200);
-		k.overførsel(51);
-		System.out.println( "Saldo er: "+ k.saldo() );
+		k.overførsel(-150);
+		System.out.println( "Saldo ved slut er: "+ k.saldo() );
 		ArrayList<String> bevægelser = k.bevægelser();
 
 		System.out.println( "Bevægelser er: "+ bevægelser );

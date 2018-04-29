@@ -7,11 +7,12 @@ public class BenytIndtastningsvindue
 		int svar = Integer.parseInt(str);
 
 		System.out.println("Du indtastede "+svar+", det dobbelte er: " + 2*svar);
+		javax.swing.JOptionPane.showMessageDialog(null, "Det dobbelte: " + 2*svar);
 
-		str = javax.swing.JOptionPane.showInputDialog("Indtast et kommatal");
-		double svar2 = Double.parseDouble(str);
-
-		System.out.println("Du indtastede "+svar2+", det halve er: " + 0.5*svar2);
-
+		int bekræft = javax.swing.JOptionPane.showConfirmDialog(null, "Er du OK?");
+		if (bekræft != javax.swing.JOptionPane.YES_OPTION) {
+			javax.swing.JOptionPane.showMessageDialog(null, "Aftal en tid hos lægen",
+				"Et godt råd", javax.swing.JOptionPane.WARNING_MESSAGE);
+		}
 	}
 }

@@ -9,7 +9,7 @@ public class Data implements Serializable
 	private static final long serialVersionUID = 12345; // bare et eller andet nr.
 
 	public String toString()
-	{ 
+	{
 		return "Data: a="+a+" tmp="+tmp;
 	}
 }

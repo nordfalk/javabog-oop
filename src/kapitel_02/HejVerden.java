@@ -1,5 +1,5 @@
 package kapitel_02;
-// Et simpelt program, der skriver "Hej verden" 
+// Et simpelt program, der skriver "Hej verden"
 // og et citat af Storm P. ud til skærmen
 // Denne fil skal have navnet: HejVerden.java
 public class HejVerden

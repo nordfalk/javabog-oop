@@ -62,7 +62,7 @@ public class Java2DDemo extends JPanel
 
 	public static void main(String[] arg)
 	{
-		JFrame vindue = new JFrame( "Java2DDemo" ); 
+		JFrame vindue = new JFrame( "Java2DDemo" );
 		vindue.add( new Java2DDemo() );
     vindue.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 

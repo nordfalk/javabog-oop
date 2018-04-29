@@ -4,21 +4,21 @@ public class HentOgGemData
 {
 	public static void main(String[] arg) throws Exception
 	{
-		ArrayList<Data> l;
+		ArrayList<Data> dataliste;
 		try {
-			l = (ArrayList<Data>) Serialisering.hent("data.ser");
-			System.out.println("Læst: "+l);
+			dataliste = (ArrayList<Data>) Serialisering.hent("data.ser");
+			System.out.println("Læst: "+dataliste);
 		} catch (Exception e) {
-			l = new ArrayList<Data>();
-			System.out.println("Oprettet: "+l);
+			dataliste = new ArrayList<Data>();
+			System.out.println("Oprettet: "+dataliste);
 		}
 
 		Data d = new Data();
 		d.a   = (int) (Math.random()*100);
 		d.tmp = (int) (Math.random()*100);
-		l.add(d);
+		dataliste.add(d);
 
-		System.out.println("Gemt: "+l);
-		Serialisering.gem(l,"data.ser");
+		System.out.println("Gemt: "+dataliste);
+		Serialisering.gem(dataliste,"data.ser");
 	}
 }

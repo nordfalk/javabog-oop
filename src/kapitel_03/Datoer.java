@@ -26,7 +26,7 @@ public class Datoer
 		nuMs = netopNu.getTime();
 		jacobMs = jacob.getTime();
 		alderMs = nuMs - jacobMs;
- 
+
 		// Hvornår var han halvt så gammel?
 		jacob.setTime(nuMs - alderMs/2);
 		System.out.println("Jacob var halvt så gammel "+jacob);

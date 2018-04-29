@@ -4,7 +4,7 @@ public class BenytTegnbareObjekter
 {
 	public static void main(String[] arg)
 	{
-    TegnbareObjekter panel = new TegnbareObjekter();
+    TegnbareObjekterPanel panel = new TegnbareObjekterPanel();
 
 		Stjerne stjerne = new Stjerne();
 
@@ -35,7 +35,7 @@ public class BenytTegnbareObjekter
         t.sætPosition(x,y);
         v = v*1.5;
       }
-			vindue.repaint();                               // gentegn skærm
+			panel.repaint();                               // gentegn skærm
 			try { Thread.sleep(10); } catch (Exception e) {}// vent lidt
       if (n++ % 100 == 0) bæger.ryst();
 		}

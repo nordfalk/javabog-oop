@@ -5,15 +5,15 @@ public class KonvertereMellemArrayOgArrayList
 	public static void main(String[] arg)
 	{
 		String[] mdrA = {"januar", "februar", "marts", "april", "maj" };
-		
+
 		List<String> mdrL = Arrays.asList( mdrA );         // konvertér til liste..
-		ArrayList<String> mdrAL = new ArrayList<String>( mdrL ); // ...og ArrayList
+		ArrayList<String> mdrAL = new ArrayList<>( mdrL ); // ...og ArrayList
 
 		// supernem måde at udskrive ethvert array af objekter
 		System.out.println("Nogle måneder: " + Arrays.asList( mdrA ) );
 
 		// initialisering af liste v.hj.a. Arrays.asList():
-		List<String> mdrL2 = Arrays.asList( 
+		List<String> mdrL2 = Arrays.asList(
 			new String[] {"januar", "februar", "marts", "april", "maj" }
 		);
 
@@ -22,7 +22,7 @@ public class KonvertereMellemArrayOgArrayList
 			new String[] {"januar", "februar", "marts", "april", "maj" }
 		));
 
-		// konvertering tilbage igen til array		
+		// konvertering tilbage igen til array
 		String[] mdrA2 =  mdrAL.toArray(new String[0]);
 	}
 }

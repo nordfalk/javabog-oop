@@ -5,6 +5,7 @@ oop_jdeveloper.jpr
 /classes/
 /dist/
 /.settings/
+/.idea/
 /model/oop_jdeveloper/personer_og_konti.java_diagram
 /skrevet fil.txt
 /venner.ser

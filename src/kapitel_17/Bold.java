@@ -24,14 +24,14 @@ public class Bold implements Runnable
 		{
         // Tegn bolden over med hvid på den gamle position
 			g.setColor(Color.WHITE);
-        g.drawOval((int) x, (int) y, 50, 50);
+			g.drawOval((int) x, (int) y, 50, 50);
 
-        // Opdater positionen med farten
-        x = x + fartx;
-        y = y + farty;
+			// Opdater positionen med farten
+			x = x + fartx;
+			y = y + farty;
 
-        // Tegn bolden med sort på den nye position
-        g.setColor(Color.BLACK);
+			// Tegn bolden med sort på den nye position
+			g.setColor(Color.BLACK);
 			g.drawOval((int) x, (int) y, 50, 50);
 
       // ændr boldens hastighed lidt nedad

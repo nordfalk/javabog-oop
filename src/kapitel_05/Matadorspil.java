@@ -9,7 +9,7 @@ public class Matadorspil
 
 	int spillersTur = 0;
 
-	public Matadorspil() 
+	public Matadorspil()
 	{
 		felter.add(new Start(5000));
 		felter.add(new Gade("Rødovrevej", 10000, 400,1000));

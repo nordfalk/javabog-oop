@@ -12,8 +12,8 @@ public class SimpeltDatabaseeksempel
     //stmt.executeUpdate("create table KUNDER (NAVN varchar(32), KREDIT float)" );
 
     stmt.executeUpdate("insert into KUNDER values('Jacob', -1799)");
-    stmt.executeUpdate("insert into KUNDER values('Robert\\'); drop table KUNDER; -- ', 0)");
-      
+    stmt.executeUpdate("insert into KUNDER values('Robert', -1799)");
+
       		// forespørgsler
 		ResultSet rs = stmt.executeQuery("select NAVN, KREDIT from KUNDER");
 		while (rs.next())

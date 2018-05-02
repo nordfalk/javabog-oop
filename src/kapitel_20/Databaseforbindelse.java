@@ -9,7 +9,8 @@ public class Databaseforbindelse
 	public Databaseforbindelse() throws Exception
 	{
 		Class.forName("com.mysql.jdbc.Driver");
-		Connection forb = DriverManager.getConnection("jdbc:mysql:///test");
+		Connection forb = DriverManager.getConnection(
+						"jdbc:mysql:///test", "databasebrugeren","adgangskoden");
 		stmt = forb.createStatement();
 	}
 
@@ -32,7 +33,7 @@ public class Databaseforbindelse
 
 	public void indsæt(Kunde k) throws SQLException
 	{
-		stmt.executeUpdate("insert into KUNDER (NAVN,KREDIT) values('" 
+		stmt.executeUpdate("insert into KUNDER (NAVN,KREDIT) values('"
 			+ k.navn + "', " + k.kredit + ")");
 	}
 

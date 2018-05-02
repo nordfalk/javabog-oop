@@ -1,8 +1,8 @@
 package kapitel_20;
 public class Kunde
 {
-	String navn;
-	double kredit;
+	public String navn;
+	public double kredit;
 
 	public Kunde(String n, double k)
 	{

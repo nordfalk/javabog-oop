@@ -10,18 +10,18 @@ public class Boks3medDensitet extends Boks3
 		densitet = 10.0;
 	}
 
-	public Boks3medDensitet(double lgd, double b,	
+	public Boks3medDensitet(double lgd, double b,
 					double h, double densitet)
 	{
-		// vælg en anden konstruktør i superklassen 
+		// vælg en anden konstruktør i superklassen
 		// end den uden parametre
-		super(lgd,b,h); 
+		super(lgd,b,h);
 		this.densitet = densitet;
 	}
 
 	public double vægt()
 	{
 		// superklassen udregner volumen for os
-		return volumen() * densitet; 
+		return volumen() * densitet;
 	}
 }

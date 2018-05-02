@@ -20,9 +20,10 @@ public class BenytTransaktioner
 
 			forb.commit();
 		} catch (Exception e) {
+      e.printStackTrace();
 			forb.rollback();
 		}
-		
+
 //		stmt.execute("COMMIT");
 
 	}

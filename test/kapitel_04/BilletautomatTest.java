@@ -21,9 +21,7 @@ public class BilletautomatTest {
 	public void testGetBilletpris() {
 		System.out.println("getBilletpris");
 		Billetautomat instance = new Billetautomat(10);
-		int expResult = 10;
-		int result = instance.getBilletpris();
-		assertEquals(expResult, result);
+		assertEquals(10, instance.getBilletpris());
 	}
 
 
@@ -33,7 +31,7 @@ public class BilletautomatTest {
 		Billetautomat instance = new Billetautomat(10);
 		int expResult = 0;
 		int result = instance.getBalance();
-		assertEquals(expResult, result);		
+		assertEquals(expResult, result);
 	}
 
 	@Test
@@ -45,4 +43,12 @@ public class BilletautomatTest {
 		assertEquals(0, instance.getBalance());
 	}
 
+	@Test
+	public void tjekNegativtBeløb()
+  {
+		Billetautomat automat = new Billetautomat(10);
+    automat.indsætPenge(-10);
+		int retur = automat.getBalance();
+		assertEquals(0, retur);
+	}
 }

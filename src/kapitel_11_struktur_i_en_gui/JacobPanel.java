@@ -46,7 +46,7 @@ public class JacobPanel extends javax.swing.JPanel {
     ærlighedindikator.setText("Jeg er ærlig nu");
 
     kloghedsinidkator.setMaximum(70);
-    kloghedsinidkator.setValue(35);
+    kloghedsinidkator.setValue(5);
 
     jTextAreaDom.setColumns(20);
     jTextAreaDom.setRows(5);
@@ -74,20 +74,20 @@ public class JacobPanel extends javax.swing.JPanel {
         .addContainerGap()
         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
           .addGroup(layout.createSequentialGroup()
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE)
-            .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-          .addGroup(layout.createSequentialGroup()
             .addComponent(jLabel1)
             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(jButton1))
           .addGroup(layout.createSequentialGroup()
+            .addComponent(kloghedsinidkator, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+          .addGroup(layout.createSequentialGroup()
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-              .addComponent(kloghedsinidkator, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
+              .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE)
               .addGroup(layout.createSequentialGroup()
                 .addComponent(ærlighedindikator)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(okKnap)))
             .addGap(0, 0, Short.MAX_VALUE))))
     );
@@ -102,7 +102,7 @@ public class JacobPanel extends javax.swing.JPanel {
         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
         .addComponent(kloghedsinidkator, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
           .addComponent(ærlighedindikator)
           .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
           .addComponent(okKnap))
@@ -156,4 +156,27 @@ public class JacobPanel extends javax.swing.JPanel {
   private javax.swing.JButton okKnap;
   private javax.swing.JCheckBox ærlighedindikator;
   // End of variables declaration//GEN-END:variables
+
+  public void setKloghedsinidkator(int kloghed) {
+    kloghedsinidkator.setValue(kloghed);
+  }
+
+  public int getKloghedsinidkator() {
+    return kloghedsinidkator.getValue();
+  }
+
+
+  private String labelTekst;
+
+  public String getLabelTekst() {
+    return labelTekst;
+  }
+
+  public void setLabelTekst(String labelTekst) {
+    this.labelTekst = labelTekst;
+    jLabel1.setText(labelTekst);
+  }
+
+
+
 }

@@ -12,7 +12,7 @@ public class BenytFtpForbindelse {
 		String indhold = "Indhold af en lille fil med navnet:\nfil.txt\n";
 		f.sendTekst("STOR fil.txt", indhold);       // gem en tekstfil på værten
 
-		indhold = f.modtagTekst("RETR fil.txt");    // hent filen igen 
+		indhold = f.modtagTekst("RETR fil.txt");    // hent filen igen
 		System.out.println("Fil hentet med indholdet: "+indhold);
 	}
 }

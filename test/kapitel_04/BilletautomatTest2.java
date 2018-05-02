@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
  * @author j
  */
 public class BilletautomatTest2 {
-  
+
   @Test
   public void testGetBilletpris() {
     System.out.println("getBilletpris");

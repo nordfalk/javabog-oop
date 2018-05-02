@@ -32,8 +32,8 @@ public class FtpOpslagstavleapplet extends JApplet implements ActionListener {
 			if (f == null) {
 				f = new FtpForbindelse();
 				String vært = getCodeBase().getHost();
-				if (vært.length()==0) vært = "pingo.cv.ihk.dk"; // test-vært
-				f.forbind(vært,"jano",new String(passwordField.getPassword()));
+				if (vært.length()==0) vært = "localhost"; // test-vært
+				f.forbind(vært,"brugernavn",new String(passwordField.getPassword()));
 				textAreaOpslag.setText(f.modtagTekst("RETR opslag.txt"));
 			} else {
 				f.sendTekst("STOR opslag.txt",textAreaOpslag.getText());

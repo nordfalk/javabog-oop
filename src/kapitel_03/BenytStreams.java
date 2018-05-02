@@ -15,7 +15,7 @@ public class BenytStreams {
 		Function<String, String> storeBogstFunktion = s -> s.toUpperCase();
 
 		// map(): Udfør funktion på hvert element for at få et nyt element
-		System.out.println("Listen med store bogstaver: " +
+		System.out.println("Med store bogstaver: " +
 			liste.stream().map(storeBogstFunktion).collect(Collectors.toList()));
 
 		// mapToInt(): Udfør på hvert element en funktion, der giver en int

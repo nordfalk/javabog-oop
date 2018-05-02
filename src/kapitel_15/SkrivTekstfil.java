@@ -1,6 +1,6 @@
 package kapitel_15;
 import java.io.*;
-public class SkrivTekstfil 
+public class SkrivTekstfil
 {
 	public static void main(String[] arg) throws IOException
 	{

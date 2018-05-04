@@ -2,7 +2,7 @@ package kapitel_09;
 
 import kapitel_04.Billetautomat;
 
-public class TjekBilletautomat
+public class TjekBilletautomatNegativ
 {
 	public static void main(String[] arg)
 	{
@@ -41,6 +41,25 @@ public class TjekBilletautomat
 			System.out.println("Automaten er fejlfri, HURRA!!!");
 		} else {
 			System.out.println("Der blev fundet "+antalFejl+" fejl i automaten, ØV!");
+		}
+
+		System.out.println("*** Tjek af, at penge kan komme retur");
+		automat.indsætPenge(100);
+		automat.udskrivBillet();
+		værdi = automat.getBalance();
+		if (værdi != 90) {
+			System.out.println("FEJL, getBalance() skulle give 90, men den gav: "+værdi);
+			antalFejl = antalFejl + 1;
+		}
+
+
+		System.out.println();
+		System.out.println();
+		System.out.println("Der blev fundet "+antalFejl+" fejl i automaten");
+		if (antalFejl == 0) {
+			System.out.println("Automaten er fejlfri, HURRA!!!");
+		} else {
+			System.out.println("Automaten har fejl, ØV!!!");
 		}
 	}
 }

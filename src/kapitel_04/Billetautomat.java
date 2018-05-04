@@ -1,34 +1,28 @@
 package kapitel_04;
 /**
- * Model af en simpel billetautomat til enkeltbilletter med én fast pris.
+ * Model af en simpel billetautomat til enkeltbilletter med en fast pris.
  */
 public class Billetautomat {
 	private int pris;    // Prisen for én billet.
 	private int balance; // Hvor mange penge kunden p.t. har puttet i automaten
-	private int total;   // Total mængde penge som billetautomaten har modtaget
 	private int antalBilletterSolgt; // Antal billetter automaten i alt har solgt
 
 	/**
-	 * Opret en billetautomat der sælger billetter til en given billetpris.
+	 * Opret en billetautomat, der sælger billetter til en given billetpris.
 	 * @param billetpris skal være større end nul (p.t. bliver det ikke tjekket)
 	 */
 	public Billetautomat(int billetpris) {
 		pris = billetpris;
-		balance = 0;
-		total = 0;
-		antalBilletterSolgt = 0;
 	}
 
 	/**
-	 * Opret en billetautomat der sælger billetter til en given billetpris
+	 * Opret en billetautomat, der sælger billetter til en given billetpris
 	 * @param billetpris skal være større end nul (p.t. bliver det ikke tjekket)
 	 * @param startbalance mængden af penge automaten allerede indeholder
 	 */
 	public Billetautomat(int billetpris, int startbalance) {
 		int pris = billetpris;
 		balance = startbalance;
-		total = 0;
-		antalBilletterSolgt = 0;
 	}
 
 	/**
@@ -44,7 +38,6 @@ public class Billetautomat {
 	 */
 	public void indsætPenge(int beløb) {
 		balance = balance + beløb;
-		total = total + beløb;
 	}
 
 	/**
@@ -54,24 +47,28 @@ public class Billetautomat {
 		return balance;
 	}
 
-	/**
-	 * Udskriv en billet.
-	 * Opdater total og nedskriv balancen med billetprisen
-	 */
+	/** Udskriv en billet. */
 	public void udskrivBillet() {
-		System.out.println("##########B##T#########");
-		System.out.println("# BlueJ Trafikselskab #");
-		System.out.println("#                     #");
-		System.out.println("#        Billet       #");
-		System.out.println("#        " + pris + " kr.       #");
-		System.out.println("#                     #");
-		System.out.println("##########B##T#########");
-		System.out.println("# Du har " + balance + " kr til gode       #");
-		System.out.println("##########B##T#########");
-		System.out.println();
-
 		antalBilletterSolgt = antalBilletterSolgt + 1;
-		total = total + balance; // Opdater total med balance
-		balance = 0;              // Nulstil balance
+		balance = 0;             // Nulstil balance
+
+		System.out.println("##########B##T##########");
+		System.out.println("# Borgen Trafikselskab #");
+		System.out.println("#                      #");
+		System.out.println("#        Billet        #");
+		System.out.println("#        " + pris + " kr.        #");
+		System.out.println("#                      #");
+		System.out.println("# Du har " + balance + " kr til gode #");
+		System.out.println("##########B##T##########");
+		System.out.println();
+	}
+
+	public void setBilletpris(String montørkode, int nyPris) {
+		if (montørkode.equals("1234")) pris = nyPris;
+		else System.err.println("Kunne ikke sætte pris - forkert kode");
+	}
+
+	public int getSamletSalgsbeløb(String montørkode) {
+		if (montørkode.equals("1234")); return pris * antalBilletterSolgt;
 	}
 }

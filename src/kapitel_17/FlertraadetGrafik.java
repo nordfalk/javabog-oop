@@ -11,10 +11,10 @@ public class FlertraadetGrafik
 		f.setBackground(Color.WHITE);
 		f.setVisible(true);
 		Graphics g = f.getGraphics();
-		new Bold(g,  0, 0);
-		new Bold(g, 50,10);
-		new Bold(g,100,50);
-		new Bold(g,150,90);
-    System.out.println("FÆRDIG");
+		new Thread(new Bold(g,  0, 0)).start();
+		new Thread(new Bold(g, 50,10)).start();
+		new Thread(new Bold(g,100,50)).start();
+		new Thread(new Bold(g,150,90)).start();
+		System.out.println("Boldene er startet");
   }
 }

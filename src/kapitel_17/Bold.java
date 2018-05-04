@@ -1,5 +1,6 @@
 package kapitel_17;
 import java.awt.*;
+import java.util.Timer;
 
 public class Bold implements Runnable
 {
@@ -14,8 +15,6 @@ public class Bold implements Runnable
 
 		fartx = Math.random();
 		farty = Math.random();
-		Thread t = new Thread(this);
-		t.start();
 	}
 
 	public void run()

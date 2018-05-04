@@ -1,15 +1,15 @@
 build.xml
 oop_jdeveloper.jpr
-/nbproject/
-/build/
-/classes/
-/dist/
-/.settings/
-/.idea/
-/model/oop_jdeveloper/personer_og_konti.java_diagram
-/skrevet fil.txt
-/venner.ser
-/data.ser
-/minMappe/minFil.txt
-/minMappe/minFil3.txt
-/minMappe/minFil2.txt
+nbproject/
+build/
+classes/
+dist/
+.settings/
+.idea/
+model/oop_jdeveloper/personer_og_konti.java_diagram
+skrevet fil.txt
+venner.ser
+data.ser
+minMappe/minFil.txt
+minMappe/minFil3.txt
+minMappe/minFil2.txt

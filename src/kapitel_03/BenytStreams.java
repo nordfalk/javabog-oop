@@ -23,10 +23,10 @@ public class BenytStreams {
 		int antalBogstaver = liste.stream().mapToInt(s -> s.length()).sum();
 		System.out.println("Bogstaver i alt:     " + antalBogstaver);
 
-		// filter(): Filtrér efter et kriterium (her s.length()==3)
-		List<String> lgd3 =
-			liste.stream().filter(s -> s.length() == 3).collect(Collectors.toList());
-		System.out.println("De med tre bogstaver: " + lgd3);
+		// filter(): Filtrér efter et kriterium (her s.length()==3), og sortér
+		List<String> lgd3 = liste.stream().filter(s -> s.length() == 3).sorted()
+			.collect(Collectors.toList());
+		System.out.println("De med 3 bogstaver:  " + lgd3 + " - sorteret");
 
 		// parallelStream() - starter flere tråde, der hver behandler et element
 		liste.parallelStream().forEach(element -> {
@@ -36,7 +36,7 @@ public class BenytStreams {
 			try { Thread.sleep((int) (2000 * Math.random())); } catch (Exception e) {}
 			System.out.print(element + "3; ");
 		});
-		System.out.println("\nKald til parallelStream() slut");
+		System.out.println("   - parallel behandling slut");
 	}
 }
 

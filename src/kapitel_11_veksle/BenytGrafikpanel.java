@@ -1,5 +1,4 @@
 package kapitel_11_veksle;
-import kapitel_09.*;
 import javax.swing.JFrame;
 
 public class BenytGrafikpanel

@@ -1,4 +1,4 @@
-package kapitel_09;
+package kapitel_10;
 import java.awt.*;
 import java.awt.geom.*;
 import javax.swing.*;

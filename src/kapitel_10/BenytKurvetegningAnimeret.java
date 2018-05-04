@@ -1,4 +1,4 @@
-package kapitel_09;
+package kapitel_10;
 public class BenytKurvetegningAnimeret
 {
 	public static void main(String[] arg)

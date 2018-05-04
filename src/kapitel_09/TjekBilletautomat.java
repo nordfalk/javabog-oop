@@ -1,4 +1,4 @@
-package kapitel_10;
+package kapitel_09;
 
 import kapitel_04.Billetautomat;
 

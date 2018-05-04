@@ -36,10 +36,10 @@ public class MangePaneler extends javax.swing.JPanel {
   private void initComponents() {
 
     jTabbedPane1 = new javax.swing.JTabbedPane();
-    grafikpanel1 = new kapitel_09.Grafikpanel();
-    grafikdemo1 = new kapitel_09.Grafikdemo();
+    grafikpanel1 = new kapitel_10.Grafikpanel();
+    grafikdemo1 = new kapitel_10.Grafikdemo();
     jacobPanel1 = new kapitel_11_struktur_i_en_gui.JacobPanel();
-    java2DDemo1 = new kapitel_09.Java2DDemo();
+    java2DDemo1 = new kapitel_10.Java2DDemo();
 
     setLayout(new java.awt.BorderLayout());
 
@@ -87,10 +87,10 @@ public class MangePaneler extends javax.swing.JPanel {
   }// </editor-fold>//GEN-END:initComponents
 
   // Variables declaration - do not modify//GEN-BEGIN:variables
-  private kapitel_09.Grafikdemo grafikdemo1;
-  private kapitel_09.Grafikpanel grafikpanel1;
+  private kapitel_10.Grafikdemo grafikdemo1;
+  private kapitel_10.Grafikpanel grafikpanel1;
   private javax.swing.JTabbedPane jTabbedPane1;
   private kapitel_11_struktur_i_en_gui.JacobPanel jacobPanel1;
-  private kapitel_09.Java2DDemo java2DDemo1;
+  private kapitel_10.Java2DDemo java2DDemo1;
   // End of variables declaration//GEN-END:variables
 }

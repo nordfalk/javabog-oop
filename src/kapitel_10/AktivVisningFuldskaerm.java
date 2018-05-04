@@ -1,4 +1,4 @@
-package kapitel_09;
+package kapitel_10;
 import java.awt.*;
 
 public class AktivVisningFuldskaerm extends AktivVisning

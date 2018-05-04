@@ -1,21 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package kapitel_04;
+package kapitel_09;
 
+import kapitel_04.Billetautomat;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author j
- */
 public class BilletautomatTest {
-
-	public BilletautomatTest() {
-	}
 
 	@Test
 	public void testGetBilletpris() {

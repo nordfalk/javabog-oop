@@ -1,4 +1,4 @@
-package kapitel_09;
+package kapitel_10;
 public class KurveanimationMedTraad extends Kurvetegning implements Runnable
 {
 	public KurveanimationMedTraad()

@@ -1,5 +1,6 @@
-package kapitel_04;
+package kapitel_09;
 
+import kapitel_04.Billetautomat;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

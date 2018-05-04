@@ -1,4 +1,4 @@
-package kapitel_09;
+package kapitel_10;
 import javax.swing.JFrame;
 
 public class BenytGrafikpanel

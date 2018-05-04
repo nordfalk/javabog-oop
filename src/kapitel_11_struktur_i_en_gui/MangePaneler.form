@@ -25,7 +25,7 @@
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
       <SubComponents>
-        <Container class="kapitel_09.Grafikpanel" name="grafikpanel1">
+        <Container class="kapitel_10.Grafikpanel" name="grafikpanel1">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
               <JTabbedPaneConstraints tabName="tab2">
@@ -47,7 +47,7 @@
             </DimensionLayout>
           </Layout>
         </Container>
-        <Container class="kapitel_09.Grafikdemo" name="grafikdemo1">
+        <Container class="kapitel_10.Grafikdemo" name="grafikdemo1">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
               <JTabbedPaneConstraints tabName="tab3">
@@ -78,7 +78,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Container class="kapitel_09.Java2DDemo" name="java2DDemo1">
+        <Container class="kapitel_10.Java2DDemo" name="java2DDemo1">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
               <JTabbedPaneConstraints tabName="tab4">

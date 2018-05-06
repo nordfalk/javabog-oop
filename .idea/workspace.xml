@@ -208,8 +208,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="213" />
-    <option name="y" value="188" />
+    <option name="x" value="304" />
+    <option name="y" value="161" />
     <option name="width" value="1293" />
     <option name="height" value="772" />
   </component>
@@ -252,8 +252,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$USER_HOME$/slet/slet/GalgelegREST" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
@@ -270,9 +270,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BenytGrafikdemo">
-    <configuration name="BenytGrafikdemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kapitel_09.BenytGrafikdemo" />
+  <component name="RunManager" selected="Application.BenytIndtastningsvindue">
+    <configuration name="BenytIndtastningsvindue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kapitel_02.BenytIndtastningsvindue" />
       <module name="oop-projekt" />
       <option name="ENABLE_SWING_INSPECTOR" value="true" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -337,11 +337,11 @@
     </configuration>
     <list>
       <item itemvalue="Application.HejVerden" />
-      <item itemvalue="Application.BenytGrafikdemo" />
+      <item itemvalue="Application.BenytIndtastningsvindue" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BenytGrafikdemo" />
+        <item itemvalue="Application.BenytIndtastningsvindue" />
         <item itemvalue="Application.HejVerden" />
       </list>
     </recent_temporary>
@@ -620,7 +620,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>

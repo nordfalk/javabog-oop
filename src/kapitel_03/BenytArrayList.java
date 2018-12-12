@@ -1,12 +1,33 @@
 package kapitel_03;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.ListIterator;
+import javax.swing.JButton;
 
 public class BenytArrayList
 {
 	public static void main(String[] arg)
 	{
-		ArrayList<String> liste;         // opret liste-variabel
-		liste = new ArrayList<String>(); // opret liste-objekt
+		List<String> liste;         // opret liste-variabel
+		liste = new LinkedList<String>() {
+			@Override
+			public boolean add(String e) {
+				super.add(e);
+				super.add(e);
+				return super.add(e);
+			}
+		};
+
+		new Thread( () -> System.out.println("") ).start();
+
+		new JButton().addActionListener((e) -> {
+			System.out.println("Hurra");
+		}
+		);
 
 		liste.add("æh");                 // føj til listen
 		liste.add("bæh");

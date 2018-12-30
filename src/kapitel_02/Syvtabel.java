@@ -1,7 +1,7 @@
 package kapitel_02;
 public class Syvtabel
 {
-	public static void main(String[] arg) 
+	public static void main(String[] arg)
 	{
 		int n;
 		n = 1;

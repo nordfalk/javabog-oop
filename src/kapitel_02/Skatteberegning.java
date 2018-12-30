@@ -2,9 +2,9 @@ package kapitel_02;
 //
 // Skatteberegning for 2014
 //
-public class Skatteberegning 
+public class Skatteberegning
 {
-	public static void main(String[] arg) 
+	public static void main(String[] arg)
 	{
 		double indkomst = 300000;
 		double arbejdsmarkedsbidrag, bundskat;

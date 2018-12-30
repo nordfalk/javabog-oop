@@ -9,8 +9,7 @@ public class Databaseforbindelse
 	public Databaseforbindelse() throws Exception
 	{
 		Class.forName("com.mysql.jdbc.Driver");
-		Connection forb = DriverManager.getConnection(
-						"jdbc:mysql:///test", "databasebrugeren","adgangskoden");
+		Connection forb = DriverManager.getConnection("jdbc:mysql:///test");//, "databasebrugeren","adgangskoden");
 		stmt = forb.createStatement();
 	}
 
@@ -21,7 +20,7 @@ public class Databaseforbindelse
 
 	public void opretTestdata() throws SQLException
 	{
-		try { // hvis tabellen allerede eksisterer opstår der en SQL-udtagelse
+		try { // hvis tabellen allerede eksisterer opstår der en SQLException
 			stmt.executeUpdate(
 				"create table KUNDER (NAVN varchar(32), KREDIT float)" );
 		} catch (SQLException e) {

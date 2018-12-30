@@ -12,15 +12,8 @@ public class BenytArrayList
 {
 	public static void main(String[] arg)
 	{
-		List<String> liste;         // opret liste-variabel
-		liste = new LinkedList<String>() {
-			@Override
-			public boolean add(String e) {
-				super.add(e);
-				super.add(e);
-				return super.add(e);
-			}
-		};
+		ArrayList<String> liste;         // opret liste-variabel
+		liste = new ArrayList<String>();
 
 		new Thread( () -> System.out.println("") ).start();
 

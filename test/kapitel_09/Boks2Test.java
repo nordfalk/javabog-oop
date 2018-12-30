@@ -4,7 +4,7 @@ import kapitel_04.Boks2;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class TestBoks2 {
+public class Boks2Test {
 
   @Test
   public void testSætMål() {

@@ -1,0 +1,112 @@
+package kapitel_19_soap;
+import java.util.ArrayList;
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+@WebService
+public interface KontoI
+{
+	@WebMethod void overførsel(int kroner);
+	@WebMethod int saldo();
+	@WebMethod ArrayList<String> bevægelser();
+}
+
+package kapitel_19_soap;
+
+import java.util.ArrayList;
+import javax.jws.WebService;
+
+@WebService(endpointInterface = "kapitel_19_soap.KontoI")
+public class KontoImpl { // valgfrit men ikke nødvendigt: implements KontoI
+	private int saldo = 100; // man starter med 100 kroner
+	private ArrayList<String> bevægelser = new ArrayList<>();
+
+	public void overførsel(int kroner)
+	{
+		saldo = saldo + kroner;
+		String s = "Overførsel på "+kroner+" kr. Ny saldo er "+saldo+" kr.";
+		bevægelser.add(s);
+		System.out.println(s);
+	}
+
+	public int saldo()
+	{
+		System.out.println("Der spørges om saldoen. Den er "+saldo+" kr.");
+		return saldo;
+	}
+
+	public ArrayList<String> bevægelser()
+	{
+		System.out.println("Der spørges på alle bevægelser.");
+		return bevægelser;
+	}
+}
+
+
+package kapitel_19_soap;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.ArrayList;
+import javax.xml.namespace.QName;
+import javax.xml.ws.Service;
+
+/**
+ *
+ * @author j
+ */
+public class Kontoklient {
+	public static void main(String[] args) throws MalformedURLException {
+//		URL url = new URL("http://ubuntu4.saluton.dk:9901/kontotjeneste?wsdl");
+		URL url = new URL("http://localhost:9901/kontotjeneste?wsdl");
+		QName qname = new QName("http://kapitel_19_soap/", "KontoImplService");
+		Service service = Service.create(url, qname);
+		KontoI k = service.getPort(KontoI.class);
+
+    k.overførsel(100);
+    k.overførsel(50);
+		System.out.println( "Saldo er: "+ k.saldo() );
+		k.overførsel(-200);
+		k.overførsel(51);
+		System.out.println( "Saldo er: "+ k.saldo() );
+		ArrayList<String> bevægelser = k.bevægelser();
+
+		System.out.println( "Bevægelser er: "+ bevægelser );
+	}
+}
+/*
+	long tid = System.currentTimeMillis();
+	for (int i=0; i<100; i++) {
+		k.overførsel(1);
+		k.overførsel(-1);
+	}
+	long dt = System.currentTimeMillis() - tid;
+	System.out.println( "Kørselstiden for SOAP var: "+ dt );
+
+*/
+
+
+
+package kapitel_19_soap;
+
+import javax.xml.ws.Endpoint;
+
+class Kontoserver {
+	public static void main(String[] args) {
+		System.out.println("publicerer kontotjeneste");
+		KontoImpl k = new KontoImpl();
+		// Ipv6-addressen [::] svarer til Ipv4-adressen 0.0.0.0, der matcher alle maskinens netkort og IP-adresser
+		Endpoint.publish("http://[::]:9901/kontotjeneste", k);
+		System.out.println("Kontotjeneste publiceret.");
+	}
+}
+
+
+// BEMÆRK: Denne fil er beregnet på Java 9 og 10.
+// Hvis du vil compile projektet til Java 8 eller tidligere skal du fjerne filen
+
+module dk.javabog.oop {
+    requires java.se;
+		// nedenstående er nødvendig for at kapitel_19_soap i Java 9 og 10
+    requires java.xml.ws;
+}
+

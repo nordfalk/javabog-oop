@@ -22,22 +22,16 @@ public class GrafikpanelMedKomponenter extends JPanel
 	}
 
 	public GrafikpanelMedKomponenter() {
-		try {
-			jbInit();
-		}
-		catch(Exception e) {
-			e.printStackTrace();
-		}
+		initComponents();
 	}
 
 	/** Udviklingsværktøjets initialisering af komponenter.
-	 *  Udviklingsværktøj definerer gerne en separat metode hvor de 
+	 *  Udviklingsværktøj definerer gerne en separat metode hvor de
 	 *  initialiserer komponenterne. I JBuilder og JDeveloper hedder
-	 *  den jbInit(), mens den hedder initComponents() i Betbeans.
+	 *  den jbInit(), mens den hedder initComponents() i Netbeans.
 	 *  Initialiseringen kunne dog lige så godt ligge direkte i konstruktøren.
-	 *  ændr med varsomhed, ellers kan værktøjet ikke genkende "sin" kode!
 	 */
-	private void jbInit() throws Exception {
+	private void initComponents() {
 		labelHvadErDitNavn.setText("Hvad er dit navn?");
 		labelHvadErDitNavn.setBounds(new Rectangle(15, 69, 108, 15));
 		textFieldNavn.setText("Jacob");

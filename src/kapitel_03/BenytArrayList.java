@@ -1,26 +1,12 @@
 package kapitel_03;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.ListIterator;
-import javax.swing.JButton;
+import java.util.ArrayList;          // ArrayList skal importeres før den kan bruges
 
 public class BenytArrayList
 {
 	public static void main(String[] arg)
 	{
 		ArrayList<String> liste;         // opret liste-variabel
-		liste = new ArrayList<String>();
-
-		new Thread( () -> System.out.println("") ).start();
-
-		new JButton().addActionListener((e) -> {
-			System.out.println("Hurra");
-		}
-		);
+		liste = new ArrayList<String>(); // opret liste-objekt
 
 		liste.add("æh");                 // føj til listen
 		liste.add("bæh");
@@ -28,7 +14,7 @@ public class BenytArrayList
 
 		System.out.println("Listen har elementerne "+liste.toString());
 
-		liste.add(2,"og");
+		liste.add(2, "og");
 		System.out.println("Nu har listen "+liste); // .toString() kaldes implicit
 
 		liste.remove(0);

@@ -9,7 +9,7 @@ public class KorrektBilletautomatNegativTest {
 	Billetautomat automat;
 
 	@Before
-	public void setOp() { // Køres før hver testmetode
+	public void setOp() {                  // Køres før hver testmetode
 		automat = new Billetautomat(10);
 	}
 
@@ -28,7 +28,6 @@ public class KorrektBilletautomatNegativTest {
 		assertEquals(1, automat.getBalance()); // 1 krone i rest
 	}
 
-
 	@Test
 	public void testUdskrivMangeBiletter()
 	{
@@ -44,26 +43,25 @@ public class KorrektBilletautomatNegativTest {
 	@Test
 	public void testBeskyttedeFunktioner()
 	{
-		automat.setBilletpris("1111", 20);        // forkert kode
-		assertEquals(10, automat.getBilletpris());  // prisen er uændret
-		automat.setBilletpris("1234", 20);        // korrekt kode
-		assertEquals(20, automat.getBilletpris());  // prisen er ændret
+		automat.setBilletpris("1111", 20);         // forkert kode
+		assertEquals(10, automat.getBilletpris()); // prisen er uændret
+		automat.setBilletpris("1234", 20);         // korrekt kode
+		assertEquals(20, automat.getBilletpris()); // prisen er ændret
 
 		automat.indsætPenge(100);
 		automat.udskrivBillet();
 		automat.udskrivBillet();
-		assertEquals(40, automat.getSamletSalgsbeløb("1234"));// korrekt kode
-		assertEquals( 0, automat.getSamletSalgsbeløb("1111"));// forkert kode
+		assertEquals(40, automat.getSamletSalgsbeløb("1234")); // korrekt kode
+		assertEquals( 0, automat.getSamletSalgsbeløb("1111")); // forkert kode
 	}
 
 
 	@Test
 	public void testNegativtBeløb()
 	{
-		automat.indsætPenge(-10);           // kaldet bør ignoreres
-		assertEquals(0, automat.getBalance());
+		automat.indsætPenge(-10);                // kaldet bør ignoreres
+		assertEquals(0, automat.getBalance());   // .. så balancen skal være 0
 	}
-
 
 	@Test
 	public void testAutomatMedStartbalance() {

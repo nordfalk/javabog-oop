@@ -16,11 +16,8 @@ public class HentHjemmesideMedURL
 		}
 
 /*  Java 11 version:
-		HttpClient client = HttpClient.newHttpClient();
-		HttpRequest request = HttpRequest.newBuilder(URI.create("https://esperanto.dk")).build();
-
-		var res = client.send(request, BodyHandlers.ofString());
-
+		var request = HttpRequest.newBuilder(URI.create("https://esperanto.dk")).build();
+		var res = HttpClient.newHttpClient().send(request, BodyHandlers.ofString());
 		System.out.println(""+res.body());
 
 */

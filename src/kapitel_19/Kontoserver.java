@@ -8,7 +8,7 @@ public class Kontoserver
 		java.rmi.registry.LocateRegistry.createRegistry(1099); // start i server-JVM
 
 		KontoI k = new KontoImpl();
-		Naming.rebind("rmi://localhost/kontotjeneste", k);
+		Naming.rebind("rmi://localhost:1099/kontotjeneste", k);
 		System.out.println("Kontotjeneste registreret.");
 	}
 }

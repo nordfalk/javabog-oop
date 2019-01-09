@@ -8,17 +8,19 @@ public class GrafiskRaflebaeger extends Raflebaeger implements Tegnbar
 		super(0);
 	}
 
+	@Override
 	public void sætPosition(int x, int y)
 	{
-		// tom metodekrop	
+		// tom metodekrop
 	}
 
+	@Override
 	public void tegn(Graphics g)
 	{
-		g.drawOval(80,20,90,54);
-		g.drawLine(150,115,170,50);
-		g.drawLine(100,115,80,50);
-		g.drawArc(100,100,50,30,180,180);
-    g.drawString("sum: "+sum(), 100, 100);
+		g.drawOval(180,160,90,54);
+		g.drawLine(250,255,270,190);
+		g.drawLine(200,255,180,190);
+		g.drawArc(200,240,50,30,180,180);
+    g.drawString("sum: "+sum(), 200, 200);
 	}
 }

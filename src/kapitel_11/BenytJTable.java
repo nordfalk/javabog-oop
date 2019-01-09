@@ -8,13 +8,12 @@ public class BenytJTable {
 		tm.setValueAt("2*2=4",2,2);
 		JTable tabel = new JTable(tm);
 		JOptionPane.showMessageDialog(null,tabel);
-		System.out.println(tm.getValueAt(2,2));
 
 		tabel.setModel(new DenLilleTabel());
 		JOptionPane.showMessageDialog(null,tabel);
 	}
 }
-class DenLilleTabel extends AbstractTableModel 
+class DenLilleTabel extends AbstractTableModel
 {
 	public int getColumnCount()    { return 10; }
 	public int getRowCount()       { return 10; }

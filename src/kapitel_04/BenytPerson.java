@@ -3,7 +3,7 @@ public class BenytPerson
 {
 	public static void main(String[] arg)
 	{
-		Person jacob = new Person("Jacob", "Nordfalk", 44);
+		Person jacob = new Person("Jacob", "Nordfalk", 48);
 		Person kai = new Person("Kai", "Lund", 86);
 		Person lars = new Person("Lars", "Holm", 2);
 		System.out.println("Vi har oprettet "+jacob+", "+kai+" og "+lars);

@@ -6,8 +6,7 @@ public class TjekBilletautomat
 {
 	public static void main(String[] arg)
 	{
-
-		int antalFejl = 0; // Opsætning af testen
+		int antalFejl = 0;                   // opsætning af testen
 		Billetautomat automat = new Billetautomat(10);
 
 		int værdi = automat.getBilletpris(); // tjek af startbetingelser
@@ -16,15 +15,15 @@ public class TjekBilletautomat
 			antalFejl = antalFejl + 1;
 		}
 
-		automat.indsætPenge(10);       // afprøvning af indsætPenge()
-		værdi = automat.getBalance();  // tjek af forventet tilstand
+		automat.indsætPenge(10);             // afprøvning af indsætPenge()
+		værdi = automat.getBalance();        // tjek af forventet tilstand
 		if (værdi != 10) {
 			System.out.println("FEJL, getBalance() giver ikke 10, men "+værdi);
 			antalFejl = antalFejl + 1;
 		}
 
-		automat.udskrivBillet();       // afprøvning af indsætPenge()
-		værdi = automat.getBalance();  // tjek af forventet tilstand
+		automat.udskrivBillet();             // afprøvning af udskrivBillet()
+		værdi = automat.getBalance();        // tjek af forventet tilstand
 		if (værdi != 0) {
 			System.out.println("FEJL, getBalance() giver ikke 0, men "+værdi);
 			antalFejl = antalFejl + 1;

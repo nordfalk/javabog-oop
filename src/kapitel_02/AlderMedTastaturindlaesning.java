@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class AlderMedTastaturindlaesning
 {
-	public static void main(String[] arg) throws IOException
+	public static void main(String[] arg)
 	{
 		Scanner tastatur = new Scanner(System.in);  // forbered
 

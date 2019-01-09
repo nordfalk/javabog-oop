@@ -31,10 +31,11 @@ public class Datoer
 		jacob.setTime(nuMs - alderMs/2);
 		System.out.println("Jacob var halvt så gammel "+jacob);
 
-		SimpleDateFormat df = new SimpleDateFormat("d/m yyyy");
+		SimpleDateFormat df = new SimpleDateFormat("D/M YYYY");
 		System.out.println("Jacob var halvt så gammel d. "+df.format(jacob));
 
-		System.out.println("Jacob var halvt så gammel "+DateFormat.getInstance().format(jacob));
+		System.out.println("Jacob var halvt så gammel "
+						+DateFormat.getDateTimeInstance().format(jacob));
 
 	}
 }

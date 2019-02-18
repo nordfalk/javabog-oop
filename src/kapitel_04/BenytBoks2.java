@@ -22,5 +22,9 @@ public class BenytBoks2
 		System.out.println("Volumen er: "+ enAndenBoks.volumen());
 
 		System.out.println("Samlet: " +(enBoks.volumen() + enAndenBoks.volumen()));
+
+
+		System.out.println("Samlet areal: " +(enBoks.areal() + enAndenBoks.areal()));
+
 	}
 }

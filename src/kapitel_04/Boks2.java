@@ -26,4 +26,11 @@ public class Boks2
 		vol = længde*bredde*højde;
 		return vol;
 	}
+
+	public double areal()
+	{
+		double arealet;
+		arealet = længde*bredde*4;
+		return arealet;
+	}
 }

@@ -2,14 +2,16 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package kapitel_11_struktur_i_en_gui;
+package kapitel_11_demo;
+
+import kapitel_11_struktur_i_en_gui.FanerPanel;
 
 /**
  *
  * @author j
  */
 public class JacobPanel extends javax.swing.JPanel {
-	MangePaneler ejer;
+	FanerPanel fanerPanel;
 
 	/** Creates new form JacobPanel */
 	public JacobPanel() {
@@ -47,6 +49,11 @@ public class JacobPanel extends javax.swing.JPanel {
 
     kloghedsinidkator.setMaximum(70);
     kloghedsinidkator.setValue(5);
+    kloghedsinidkator.addChangeListener(new javax.swing.event.ChangeListener() {
+      public void stateChanged(javax.swing.event.ChangeEvent evt) {
+        kloghedsinidkatorStateChanged(evt);
+      }
+    });
 
     jTextAreaDom.setColumns(20);
     jTextAreaDom.setRows(5);
@@ -71,44 +78,46 @@ public class JacobPanel extends javax.swing.JPanel {
     layout.setHorizontalGroup(
       layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
       .addGroup(layout.createSequentialGroup()
-        .addContainerGap()
-        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-          .addGroup(layout.createSequentialGroup()
-            .addComponent(jLabel1)
-            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jButton1))
-          .addGroup(layout.createSequentialGroup()
-            .addComponent(kloghedsinidkator, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE)
-            .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-          .addGroup(layout.createSequentialGroup()
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-              .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE)
-              .addGroup(layout.createSequentialGroup()
-                .addComponent(ærlighedindikator)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(okKnap)))
-            .addGap(0, 0, Short.MAX_VALUE))))
+        .addGap(71, 71, 71)
+        .addComponent(jLabel1)
+        .addGap(5, 5, 5)
+        .addComponent(okKnap)
+        .addGap(5, 5, 5)
+        .addComponent(ærlighedindikator))
+      .addGroup(layout.createSequentialGroup()
+        .addGap(109, 109, 109)
+        .addComponent(kloghedsinidkator, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+      .addGroup(layout.createSequentialGroup()
+        .addGap(39, 39, 39)
+        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addGap(5, 5, 5)
+        .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+      .addGroup(layout.createSequentialGroup()
+        .addGap(173, 173, 173)
+        .addComponent(jButton1))
     );
     layout.setVerticalGroup(
       layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
       .addGroup(layout.createSequentialGroup()
+        .addGap(5, 5, 5)
         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
           .addGroup(layout.createSequentialGroup()
-            .addGap(21, 21, 21)
+            .addGap(6, 6, 6)
             .addComponent(jLabel1))
-          .addComponent(jButton1))
-        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+          .addComponent(okKnap)
+          .addGroup(layout.createSequentialGroup()
+            .addGap(2, 2, 2)
+            .addComponent(ærlighedindikator)))
+        .addGap(5, 5, 5)
         .addComponent(kloghedsinidkator, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-          .addComponent(ærlighedindikator)
-          .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-          .addComponent(okKnap))
-        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        .addGap(5, 5, 5)
+        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+          .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+          .addGroup(layout.createSequentialGroup()
+            .addGap(30, 30, 30)
+            .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+        .addGap(5, 5, 5)
+        .addComponent(jButton1))
     );
   }// </editor-fold>//GEN-END:initComponents
 
@@ -141,8 +150,15 @@ public class JacobPanel extends javax.swing.JPanel {
   private void skiftFane(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_skiftFane
 		// TODO add your handling code here:
 		System.out.println("skiftFane blev trykket");
-		ejer.sætFane(0);
+		fanerPanel.skiftTilFane(0);
   }//GEN-LAST:event_skiftFane
+
+  private void kloghedsinidkatorStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_kloghedsinidkatorStateChanged
+    // TODO add your handling code here:
+
+		int n = kloghedsinidkator.getValue();
+		System.out.println("kloghedsinidkator n="+n);
+  }//GEN-LAST:event_kloghedsinidkatorStateChanged
 
 
 
@@ -176,7 +192,4 @@ public class JacobPanel extends javax.swing.JPanel {
     this.labelTekst = labelTekst;
     jLabel1.setText(labelTekst);
   }
-
-
-
 }

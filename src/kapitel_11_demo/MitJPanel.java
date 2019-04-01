@@ -14,7 +14,7 @@ import java.awt.Graphics;
  */
 public class MitJPanel extends javax.swing.JPanel {
 
-  private String hilsen = "Hej grafiske verden!"; 
+  private String hilsen = "Hej grafiske verden!";
   private int xpos;
   private int ypos;
 
@@ -25,6 +25,7 @@ public class MitJPanel extends javax.swing.JPanel {
     initComponents();
   }
 
+	@Override
 	public void paintComponent(Graphics g)
 	{
 		// Herunder referer g til et Graphics-objekt man kan tegne med
@@ -36,10 +37,13 @@ public class MitJPanel extends javax.swing.JPanel {
 		g.setColor(Color.GREEN);
 		g.drawString(hilsen,100,30);
 
+		g.setColor(new Color(255, xpos%256, ypos%256));
+		g.fillOval(xpos,ypos,30,30);
+
 		System.out.println("Der blev tegnet!! "+xpos + ", "+ypos);
 	}
-  
-  
+
+
   /**
    * This method is called from within the constructor to initialize the form.
    * WARNING: Do NOT modify this code. The content of this method is always
@@ -80,7 +84,7 @@ public class MitJPanel extends javax.swing.JPanel {
       .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
         .addContainerGap()
         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-          .addComponent(jSlider1, javax.swing.GroupLayout.DEFAULT_SIZE, 327, Short.MAX_VALUE)
+          .addComponent(jSlider1, javax.swing.GroupLayout.DEFAULT_SIZE, 377, Short.MAX_VALUE)
           .addComponent(jProgressBar1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
           .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -102,8 +106,9 @@ public class MitJPanel extends javax.swing.JPanel {
         .addComponent(jButton1)
         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
         .addComponent(jProgressBar1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 75, Short.MAX_VALUE)
-        .addComponent(jSlider1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        .addGap(35, 35, 35)
+        .addComponent(jSlider1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
     );
   }// </editor-fold>//GEN-END:initComponents
 
@@ -112,9 +117,9 @@ public class MitJPanel extends javax.swing.JPanel {
     jButton1.setText("TAK!!");
     String navn = jTextField1.getText();
     hilsen = "Hej kære "+navn;
-    
+
     jTextField1.setText("");
-    
+
     repaint();
   }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -122,6 +127,7 @@ public class MitJPanel extends javax.swing.JPanel {
     // TODO add your handling code here:
     xpos = evt.getX();
     ypos = evt.getY();
+		jProgressBar1.setValue(ypos);
     repaint();
   }//GEN-LAST:event_musFlyttet
 

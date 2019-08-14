@@ -1,4 +1,8 @@
 package kapitel_17;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class BenytSnakkesagligePersoner
 {
 	public static void main(String[] arg)
@@ -10,6 +14,7 @@ public class BenytSnakkesagligePersoner
 		p = new SnakkesagligPerson("Troels",400);                   // opret Troels
 		t = new Thread(p);
 		t.start();
+
 
 		// Det kan også gøres meget kompakt:
 		new Thread(new SnakkesagligPerson("Henrik",200)).start();   // opret Henrik

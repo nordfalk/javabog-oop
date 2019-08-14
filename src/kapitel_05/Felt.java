@@ -5,7 +5,7 @@ public class Felt
 	String navn;       // feltets navn, f.eks. "Hvidovrevej"
 
 	/** kaldes når en spiller passerer dette felt */
-	public void passeret(Spiller sp) 
+	public void passeret(Spiller sp)
 	{
 		sp.besked("Du passerer "+navn);
 	}

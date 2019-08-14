@@ -9,6 +9,6 @@ public class Boks
 	{
 		double vol;
 		vol = længde*bredde*højde;
-		return vol; 
+		return vol;
 	}
 }

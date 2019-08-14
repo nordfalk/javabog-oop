@@ -45,7 +45,7 @@ public class FtpForbindelse
 	}
 
 	/** Få en forbindelse beregnet til at overføre data (filer) til/fra værten */
-	private Socket skafDataforbindelse() throws IOException 
+	private Socket skafDataforbindelse() throws IOException
 	{
 		String maskineOgPortnr = sendKommando("PASV");
 		StringTokenizer st = new StringTokenizer(maskineOgPortnr, "(,)");

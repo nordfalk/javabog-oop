@@ -22,6 +22,7 @@ public class Bold implements Runnable
 		for (int tid=0; tid<5000; tid++)
 		{
         // Tegn bolden over med hvid på den gamle position
+
 			g.setColor(Color.WHITE);
 			g.drawOval((int) x, (int) y, 50, 50);
 

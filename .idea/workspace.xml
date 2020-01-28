@@ -16,17 +16,10 @@
       <change beforePath="$PROJECT_DIR$/test/kapitel_09/BilletautomatTestNegativPenge.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/kapitel_09/Boks2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/kapitel_09/TestBoks2.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,85 +42,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/kapitel_17/WebserverStreams.java" />
-        <option value="$PROJECT_DIR$/src/kapitel_17/BenytSnakkesagligePersoner.java" />
-        <option value="$PROJECT_DIR$/src/kapitel_17/Bold.java" />
-        <option value="$PROJECT_DIR$/src/kapitel_02/HejVerden.java" />
-        <option value="$PROJECT_DIR$/src/module-info.java" />
-        <option value="$PROJECT_DIR$/src/kapitel_09/Grafikpanel.java" />
-        <option value="$PROJECT_DIR$/src/kapitel_09/IntelliJForm.form" />
-        <option value="$PROJECT_DIR$/src/kapitel_09/Kurvetegning.java" />
-        <option value="$PROJECT_DIR$/src/kapitel_09/IntelliJForm.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="304" />
-    <option name="y" value="161" />
-    <option name="width" value="1293" />
-    <option name="height" value="772" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="oop-projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oop-projekt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oop-projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oop-projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oop-projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oop-projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="kapitel_09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oop-projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oop-projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="kapitel_11_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-    </panes>
+  <component name="ProjectId" id="1X0JJjsq66VhF0Rn7BDB0iRSUFU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/slet/slet/GalgelegREST" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Hent/Galgeleg/javabog-oop-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.BenytIndtastningsvindue">
+  <component name="RunManager" selected="Application.HejVerden">
     <configuration name="BenytIndtastningsvindue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kapitel_02.BenytIndtastningsvindue" />
       <module name="oop-projekt" />
@@ -155,40 +84,12 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
     </configuration>
@@ -216,122 +117,51 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="213" y="188" width="1293" height="772" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5027069" side_tool="true" visible="true" weight="0.21686748" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4972931" weight="0.21686748" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.66589326" weight="0.48343372" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19876257" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4996133" weight="0.3298193" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.5607115" weight="0.32680723" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Opsætningsfiler - skiftet ned til Java 8 igen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Opsætningsfiler - skiftet ned til Java 8 igen" />
+    <MESSAGE value="Opsætningsfiler - skiftet til Java 11. Fjernet SOAP. Mærket testkode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Opsætningsfiler - skiftet til Java 11. Fjernet SOAP. Mærket testkode" />
   </component>
-  <component name="editorHistoryManager">
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>oop-projekt:jar</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>9</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>oop-projekt</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="76" y="95" width="1789" height="861" key="CommitChangelistDialog2" timestamp="1580172520677">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="76" y="95" width="1789" height="861" key="CommitChangelistDialog2/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1580172520677" />
+    <state x="0" y="27" width="1916" height="1053" key="DiffContextDialog" timestamp="1580172514112">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="0" y="27" width="1916" height="1053" key="DiffContextDialog/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1580172514112" />
+    <state x="956" y="301" width="424" height="484" key="FileChooserDialogImpl" timestamp="1580176849022">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="956" y="301" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1580176849022" />
+    <state width="865" height="161" key="GridCell.Tab.0.bottom" timestamp="1580176908929">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="865" height="161" key="GridCell.Tab.0.bottom/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1580176908929" />
+    <state width="865" height="161" key="GridCell.Tab.0.center" timestamp="1580176908929">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="865" height="161" key="GridCell.Tab.0.center/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1580176908929" />
+    <state width="865" height="161" key="GridCell.Tab.0.left" timestamp="1580176908929">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="865" height="161" key="GridCell.Tab.0.left/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1580176908929" />
+    <state width="865" height="161" key="GridCell.Tab.0.right" timestamp="1580176908929">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="865" height="161" key="GridCell.Tab.0.right/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1580176908929" />
+    <state x="661" y="121" width="1024" height="845" key="SettingsEditor" timestamp="1580171649839">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="661" y="121" width="1024" height="845" key="SettingsEditor/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1580171649839" />
+    <state x="617" y="355" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1580172524012">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="617" y="355" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1580172524012" />
+    <state x="331" y="221" width="562" height="796" key="new project wizard" timestamp="1580176876752">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="331" y="221" width="562" height="796" key="new project wizard/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1580176876752" />
   </component>
 </project>

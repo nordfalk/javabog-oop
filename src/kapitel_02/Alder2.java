@@ -1,7 +1,7 @@
 package kapitel_02;
 public class Alder2
 {
-	public static void main(String[] arg) 
+	public static void main(String[] arg)
 	{
 		int alder;
 		alder = 15;

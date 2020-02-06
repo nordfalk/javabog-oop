@@ -21,7 +21,7 @@ public class ChatKlientModtager
 		while (true) {
 			String chatTekst = scanner.nextLine();
 
-			String tid = String.format("%1$tT", new Date());
+			String tid = String.format("%tT", new Date());
 			System.out.println(tid + " " + chatTekst);
 		}
 	}

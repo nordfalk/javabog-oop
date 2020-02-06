@@ -14,7 +14,7 @@ public class KontoImpl extends UnicastRemoteObject implements KontoI
 	public void overførsel(int kroner)
 	{
 		int nySaldo = saldo + kroner; // her beregnes ny saldo
-		String s = "Overførsel på "+kroner+" kr. Ny saldo er "+nySaldo+" kr.";
+		String s = Thread.currentThread() + " Overførsel på "+kroner+" kr. Ny saldo er "+nySaldo+" kr.";
 		bevægelser.add(s);
 		System.out.println(s);
 		//try { Thread.sleep(500); } catch (InterruptedException ex) { } // transaktionen gemmes

@@ -7,9 +7,11 @@ public class Kontoserver
 		// Enten: Kør programmet 'rmiregistry' fra mappen med .class-filerne, eller:
 		java.rmi.registry.LocateRegistry.createRegistry(1099); // start i server-JVM
 
-		KontoI k = new KontoImpl();
+		KontoImpl k = new KontoImpl();
 		Naming.rebind("rmi://localhost:1099/kontotjeneste", k);
 		System.out.println("Kontotjeneste registreret.");
+		k.overførsel(117);
+		k.overførsel(1023);
 	}
 }
 /*

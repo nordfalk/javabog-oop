@@ -6,6 +6,7 @@ public class Kontoklient
 {
 	public static void main(String[] arg) throws Exception
 	{
+		Thread.sleep(500);
 		KontoI k =(KontoI) Naming.lookup("rmi://localhost:1099/kontotjeneste");
     k.overførsel(100);
     k.overførsel(50);
@@ -15,6 +16,9 @@ public class Kontoklient
 		ArrayList<String> bevægelser = k.bevægelser();
 
 		System.out.println( "Bevægelser er: "+ bevægelser );
+
+		Thread.sleep(10000);
+		System.out.println( "Saldo HELT ved slut er: "+ k.saldo() );
 	}
 }
 /*

@@ -8,6 +8,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
 
+/**
+ * En chat-server. Langt bedre end Discord :-)
+ */
 public class ChatServer
 {
 	private static void sendTilModtagere(String tekst, ArrayList<OutputStream> modtagere)	{
@@ -41,7 +44,7 @@ public class ChatServer
 				sendTilModtagere(forbindelse+" skrev: "+tekst, modtagere);
 				sendTilModtagere(tekst, modtagere);
 			} else if (kommando.equals("MODTAG")) {
-				String tid = String.format("%1$tT", new Date());
+				String tid = String.format("%tT %1$tD", new Date());
 				sendTilModtagere(forbindelse+" hoppede på klokken "+tid, modtagere);
 				OutputStream os = forbindelse.getOutputStream();
 				os.write("Velkommen til chatserveren\n".getBytes());

@@ -32,28 +32,33 @@ public class ChatServer
 
 		while (true)
 		{
-			Socket forbindelse = serversocket.accept();
-			System.out.println("Ny forbindelse fra "+forbindelse);
-			Scanner scanner = new Scanner(forbindelse.getInputStream());
+			Socket socket = serversocket.accept();
+			System.out.println("Ny forbindelse fra "+socket);
+			Scanner scanner = new Scanner(socket.getInputStream());
 			String kommando = scanner.nextLine();
 			System.out.println("kommando: "+kommando);
+
+			if (kommando.startsWith("BRUGER")) {
+				kommando = scanner.nextLine(); // fremtidig udvidelse - spring over den kommando og kig på den næste
+			}
 
 			if (kommando.equals("SEND")) {
 				String tekst = scanner.nextLine();
 				System.out.println("tekst: "+tekst);
-				sendTilModtagere(forbindelse+" skrev: "+tekst, modtagere);
+				sendTilModtagere(socket+" skrev:", modtagere);
 				sendTilModtagere(tekst, modtagere);
 			} else if (kommando.equals("MODTAG")) {
-				String tid = String.format("%tT %1$tD", new Date());
-				sendTilModtagere(forbindelse+" hoppede på klokken "+tid, modtagere);
-				OutputStream os = forbindelse.getOutputStream();
+				String tidspunkt = String.format("%tT %1$tD", new Date());
+				sendTilModtagere(socket+" hoppede på klokken "+tidspunkt, modtagere);
+				OutputStream os = socket.getOutputStream();
 				os.write("Velkommen til chatserveren\n".getBytes());
 				os.write(("Der er lige nu "+ modtagere.size() +" på.\n").getBytes());
 				os.write("--------------------------\n".getBytes());
 				modtagere.add(os);
 			} else {
-				System.out.println("Ukendt kommando "+kommando+" fra "+forbindelse);
+				System.out.println("Ukendt kommando "+kommando+" fra "+socket);
 			}
+			socket.close();
 		}
 	}
 }

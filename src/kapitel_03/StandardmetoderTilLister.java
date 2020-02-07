@@ -30,8 +30,8 @@ public class StandardmetoderTilLister
 		System.out.println("Liste uden elem 0-5: "+liste);
 
 		liste2.removeAll(liste);       // fjern alt fra liste2 som findes i liste
-		System.out.println("Liste2 u. andre elem:"+liste2);
+		System.out.println("Liste2 uden de andre:"+liste2);
 
-		liste2.forEach((n) -> System.out.print(n*10 + "x")); // udfør på elementerne
+		liste2.forEach((n) -> System.out.print(n + "x10 er " + n*10+ ". ")); // udfør på elementerne
   }
 }

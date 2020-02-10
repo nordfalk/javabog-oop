@@ -19,12 +19,12 @@ public class FlertraadetChatServer
 	static ExecutorService executor = Executors.newCachedThreadPool();
 
 	private static void sendTilAlle(String tekst)	{
+		System.out.println("Sender til "+klientforbindelser.size()+" modtagere: "+tekst);
 		for (final Klientforbindelse modtager : new ArrayList<>(klientforbindelser)) {
 			executor.submit(() -> {  // Transport af tekst til klienter kan blokere, så brug seperat tråd
 				try {
 					modtager.os.println(tekst);
 					modtager.os.flush();
-					System.out.println("Sendt til "+modtager+": "+tekst);
 				} catch (Exception e) {
 					System.out.println("Fjerner modtager "+modtager+": "+e);
 					klientforbindelser.remove(modtager);
@@ -37,6 +37,7 @@ public class FlertraadetChatServer
 		ServerSocket serversocket = new ServerSocket(62514);
 
 
+		System.out.println("Server startet " + new Date());
 		while (true)
 		{
 			Socket socket = serversocket.accept();
@@ -59,8 +60,13 @@ public class FlertraadetChatServer
 		public void run() {
 			try {
 				os = new PrintWriter(socket.getOutputStream());
+				String tidspunkt = String.format("%tT %1$tD", new Date());
+				sendTilAlle(socket + " hoppede på klokken " + tidspunkt);
+				os.println("Velkommen til chatserveren");
+				os.println("Der er lige nu " + klientforbindelser.size() + " på.");
+				os.println("--------------------------");
 
-				bruger = socket.toString();
+				bruger = socket.getInetAddress()+",port="+socket.getPort();
 				System.out.println("Ny forbindelse fra "+bruger);
 				Scanner scanner = new Scanner(socket.getInputStream());
 				while (scanner.hasNextLine()) {
@@ -72,19 +78,14 @@ public class FlertraadetChatServer
 						bruger = kommando.substring(bruger.indexOf(" ")+1);
 						System.out.println("Skifter bruger til: "+bruger);
 					} else if (kommando.equals("SEND")) {
-						String tekst = scanner.nextLine();
-						System.out.println("tekst: " + tekst);
-						sendTilAlle(bruger + " skrev:");
-						sendTilAlle(tekst);
+						// Ignorer - alt sendes
 					} else if (kommando.equals("MODTAG")) {
 						// ignorér - alle data sendes til alle modtagere, men vi kan da godt skrive at personen er hoppet på...
-						String tidspunkt = String.format("%tT %1$tD", new Date());
-						sendTilAlle(socket + " hoppede på klokken " + tidspunkt);
-						os.println("Velkommen til chatserveren");
-						os.println("Der er lige nu " + klientforbindelser.size() + " på.");
-						os.println("--------------------------");
 					} else {
-						System.out.println("Ukendt kommando " + kommando + " fra " + socket);
+						String tekst = kommando;
+						System.out.println("tekst: " + tekst);
+						sendTilAlle(bruger + ": "+tekst);
+						//System.out.println("Ukendt kommando " + kommando + " fra " + socket);
 					}
 				}
 				socket.close();

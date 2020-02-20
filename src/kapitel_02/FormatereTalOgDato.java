@@ -11,6 +11,6 @@ public class FormatereTalOgDato
 		}
 		System.out.println(String.format(Locale.US, "kvadratrod %4d er %f på amerikansk", 8, Math.sqrt(8)));
 		Date d = new Date(); // repræsenterer dags dato
-		System.out.println(String.format("I dag er %tA den %1$te. %1$tB år %1$tY kl. %1$tT\n",d));
+		System.out.println(String.format("Klokken er %tT - %1$tA den %1$te. %1$tB år %1$tY \n",d));
 	}
 }

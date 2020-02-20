@@ -32,7 +32,7 @@ public class BenytPunkter
 		p.translate(-10,20);
 		System.out.println("5 x- og y-koordinater: "+p);            // se afsnit 3.5.5
 
-		Point p2 = new Point(0,0);
+		Point p2 = new Point(500,500);
 
 		double afstand = p.distance(p2);
 		System.out.println("afstanden mellem "+p+" og "+p2+" er "+afstand);

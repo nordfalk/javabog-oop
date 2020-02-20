@@ -21,6 +21,11 @@ public class BenytArrayList
 		System.out.println("Nu har listen "+liste+" og størrelsen "+liste.size());
 		System.out.println("På plads nummer 1 er: "+liste.get(1));
 
+		for (int i=0; i< liste.size(); i++) {
+			String element = liste.get(i);
+			System.out.println("Element nummer "+i+" er: "+ element);
+		}
+
 		for (String element : liste) {  // gennemløb alle elementerne i listen
 			System.out.println("Et element i listen: "+ element);
 		}

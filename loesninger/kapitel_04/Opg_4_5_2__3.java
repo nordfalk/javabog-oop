@@ -1,13 +1,13 @@
 package kapitel_04;
 
-import java.util.*;
+import java.util.ArrayList;
 
 public class Opg_4_5_2__3 {
 	static class Raflebæger {
-		public ArrayList terninger;  // Raflebaeger har en vektor af terninger
+		public ArrayList<Terning> terninger;  // Raflebaeger har en vektor af terninger
 
 		public Raflebæger(int antalTerninger) {
-			terninger = new ArrayList();
+			terninger = new ArrayList<Terning>();
 			for (int i = 0; i < antalTerninger; i++) {
 				Terning t;
 				t = new Terning();

@@ -1,6 +1,7 @@
 package kapitel_02;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 public class Opg_2_10_2__3 {
 	public static void main(String[] args) throws Exception {

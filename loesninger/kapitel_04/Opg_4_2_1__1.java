@@ -1,44 +1,45 @@
 package kapitel_04;
 
-class Boks2ny {
-	private double længde;
-	private double bredde;
-	private double højde;
-	private double massefylde;
-
-	public void sætMål(double lgd, double b, double h) {
-		if (lgd > 0 && b > 0 && h > 0) {
-			længde = lgd;
-			bredde = b;
-			højde = h;
-		} else {
-			System.out.println("Ugyldige mål. Bruger standardmål.");
-			længde = 10.0;
-			bredde = 10.0;
-			højde = 10.0;
-		}
-	}
-
-	public void sætMassefylde(double m) {
-		if (m > 0) {
-			massefylde = m;
-		} else {
-			System.out.println("Ugyldig massefylde. Bruger standard massefylde.");
-			massefylde = 1;
-		}
-	}
-
-	public double volumen() {
-		return længde * bredde * højde;
-	}
-
-	public double vægt() {
-		return volumen() * massefylde;
-	}
-}
-
 
 public class Opg_4_2_1__1 {
+	static class Boks2ny {
+		private double længde;
+		private double bredde;
+		private double højde;
+		private double massefylde;
+
+		public void sætMål(double lgd, double b, double h) {
+			if (lgd > 0 && b > 0 && h > 0) {
+				længde = lgd;
+				bredde = b;
+				højde = h;
+			} else {
+				System.out.println("Ugyldige mål. Bruger standardmål.");
+				længde = 10.0;
+				bredde = 10.0;
+				højde = 10.0;
+			}
+		}
+
+		public void sætMassefylde(double m) {
+			if (m > 0) {
+				massefylde = m;
+			} else {
+				System.out.println("Ugyldig massefylde. Bruger standard massefylde.");
+				massefylde = 1;
+			}
+		}
+
+		public double volumen() {
+			return længde * bredde * højde;
+		}
+
+		public double vægt() {
+			return volumen() * massefylde;
+		}
+	}
+
+
 	static public void main(String[] args) {
 		Boks2ny boks1 = new Boks2ny();
 		Boks2ny boks2 = new Boks2ny();

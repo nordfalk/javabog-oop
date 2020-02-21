@@ -1,6 +1,6 @@
 package kapitel_03;
 
-import java.util.*;
+import java.util.Date;
 
 public class Opg_3_7_1__1 {
 	public static void main(String[] args) {

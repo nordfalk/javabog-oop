@@ -1,7 +1,8 @@
 package kapitel_03;
 
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Date;
 
 public class Opg_3_7_1__3 {
 	public static void main(String[] args) throws Exception {

@@ -1,6 +1,6 @@
 package kapitel_04;
 
-import java.util.*;
+import java.util.ArrayList;
 
 public class Opg_4_4_1__3 {
 

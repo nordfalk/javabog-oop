@@ -1,6 +1,7 @@
 package kapitel_04;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Date;
 
 public class Opg_4_11_2__3 {
 	static class Postering {
@@ -62,7 +63,6 @@ public class Opg_4_11_2__3 {
 			}
 			return formueF;
 		}
-
 	}
 
 

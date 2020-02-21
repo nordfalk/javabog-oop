@@ -7,20 +7,17 @@ package kapitel_04;
  hente listen i en fil (vha. serialisering).
  */
 
-import kapitel_14.Tastatur;
-import kapitel_18.Serialisering;
-
 import java.io.Serializable;
 import java.util.ArrayList;
 
 public class Opg_4_10__3 {
 	public static class Udgivelse implements Serializable {
-		int år;
-		String navn;
-		String gruppe;
-		String pladeselskab;
+		public int år;
+		public String navn;
+		public String gruppe;
+		public String pladeselskab;
 
-		Udgivelse(int årInd, String navnInd, String gruppeInd, String selskabInd) {
+		public Udgivelse(int årInd, String navnInd, String gruppeInd, String selskabInd) {
 			år = årInd;
 			navn = navnInd;
 			gruppe = gruppeInd;

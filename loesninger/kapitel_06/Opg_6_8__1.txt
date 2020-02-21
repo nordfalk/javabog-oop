@@ -1,0 +1,39 @@
+ArrayLis-klassen ligger i filen rt.jar i java-8-openjdk-amd64/jre/lib/rt.jar,
+sammen med ca. 20000 andre filer:
+
+Herunder er et udsnit af fillisten 
+
+
+  Length     Date   Time    Name
+ --------    ----   ----    ----
+
+ ...
+
+        0  08-15-00 02:31   java/
+        0  08-15-00 02:31   java/lang/
+     1428  08-15-00 02:31   java/lang/Object.class
+    11661  08-15-00 02:31   java/lang/String.class
+      291  08-15-00 02:31   java/lang/Exception.class
+     6124  08-15-00 02:31   java/lang/StringBuffer.class
+     7180  08-15-00 02:31   java/lang/Thread.class
+      127  08-15-00 02:31   java/lang/Runnable.class
+     7257  08-15-00 02:31   java/lang/ThreadGroup.class
+     5529  08-15-00 02:31   java/lang/System.class
+      320  08-15-00 02:31   java/lang/NullPointerException.class
+      640  08-15-00 02:31   java/lang/StringIndexOutOfBoundsException.class
+      330  08-15-00 02:31   java/lang/IndexOutOfBoundsException.class
+     2880  08-15-00 02:31   java/lang/Math.class
+      316  08-15-00 02:31   java/lang/ClassCastException.class
+      315  08-15-00 02:31   java/lang/OutOfMemoryError.class
+     4542  08-15-00 02:31   java/lang/Runtime.class
+      318  08-15-00 02:31   java/lang/ArithmeticException.class
+      
+ ...
+ 
+     7784  08-15-00 02:31   java/util/Hashtable.class
+      460  08-15-00 02:31   java/util/Dictionary.class
+      834  08-15-00 02:31   java/util/ArrayList$1.class
+     6873  08-15-00 02:31   java/util/ArrayList.class
+
+ ...
+

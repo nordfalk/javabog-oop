@@ -1,13 +1,13 @@
 package kapitel_05;
-/** Definition af en spiller */
-public class Spiller
-{
+/**
+ * Definition af en spiller
+ */
+public class Spiller {
 	String navn;       // spillerens navn, f.eks. "Søren"
 	double konto;      // antal kroner på spillerens konto
-	int feltnr;        // hvad nummer felt spilleren står på. rdquoStartrdquo er nummer 0
+	int feltnr;        // hvad nummer felt spilleren står på. Start er nummer 0
 
-	public Spiller(String navn, double konto)
-	{
+	public Spiller(String navn, double konto) {
 		this.navn = navn;
 		this.konto = konto;
 		feltnr = 0;

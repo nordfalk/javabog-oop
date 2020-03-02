@@ -45,12 +45,17 @@ public class Raflebaeger
 		return resultat;
 	}
 
-	/** finder antallet af terninger, der viser en bestemt værdi */
-	public int antalDerViser(int værdi)
-	{
-		int resultat=0;
-		for (Terning t : terninger) 
-		{
+	/**
+	 * Tæller antallet af terninger, der viser en bestemt værdi.
+	 * Eksempel: For [1, 3, 4, 4, 6] vil antalDerViser(1) give 1,antalDerViser(2) give 0,
+	 * og antalDerViser(4) give 2.
+	 *
+	 * @param værdi Ønsket værdi, f.eks. 6
+	 * @return antallet af den ønskede værdi (f.eks. hvor mange 6'ere der er)
+	 */
+	public int antalDerViser(int værdi) {
+		int resultat = 0;
+		for (Terning t : terninger) {
 			int terningensVærdi = t.getVærdi();
 			if (terningensVærdi==værdi)
 			{

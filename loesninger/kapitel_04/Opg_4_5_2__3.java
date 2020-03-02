@@ -41,8 +41,15 @@ public class Opg_4_5_2__3 {
 			return resultat;
 		}
 
-		public int antalDerViser(int værdi) // Antal terninger med en bestemt værdi
-		{
+		/**
+		 * Tæller antallet af terninger, der har en bestemt værdi.
+		 * Eksempel: For [1, 3, 4, 4, 6] vil antalDerViser(1) give 1,antalDerViser(2) give 0,
+		 * og antalDerViser(4) give 2.
+		 *
+		 * @param værdi Ønsket værdi, f.eks. 6
+		 * @return antallet af den ønskede værdi (f.eks. hvor mange 6'ere der er)
+		 */
+		public int antalDerViser(int værdi) {
 			int resultat;
 			resultat = 0;
 			for (int i = 0; i < terninger.size(); i++) {
@@ -55,31 +62,59 @@ public class Opg_4_5_2__3 {
 			return resultat;
 		}
 
+		/**
+		 * Tjekker for Lav (kaldes også lille straight)
+		 *
+		 * @return true hvis der er en 1'er, 2'er, 3'er, 4'er og en 5'er.
+		 */
+		public boolean lilleStraight() {
+			if (antalDerViser(1) < 1) return false;
+			if (antalDerViser(2) < 1) return false;
+			if (antalDerViser(3) < 1) return false;
+			if (antalDerViser(4) < 1) return false;
+			if (antalDerViser(5) < 1) return false;
+			return true;
+		}
+
+		/**
+		 * Tjekker for Høj (kaldes også stor straight)
+		 *
+		 * @return true hvis der er en 2'er, 3'er, 4'er, 5'er og en 6'er.
+		 */
+		public boolean storStraight() {
+			for (int værdi = 2; værdi <= 6; værdi++) {
+				if (antalDerViser(værdi) < 1) return false;
+			}
+			return true;
+		}
+
+
+		public boolean tjekOmDerErSåMangeEns(int ønsketAntalEns) {
+			for (int værdi = 1; værdi <= 6; værdi++) {
+				if (antalDerViser(værdi) >= ønsketAntalEns) return true;
+			}
+			return false;
+		}
+
+
 		public boolean femEns() {
-			return nEns(5);
+			return tjekOmDerErSåMangeEns(5);
 		}
 
 		public boolean fireEns() {
-			return nEns(4);
+			return tjekOmDerErSåMangeEns(4);
 		}
 
 		public boolean treEns() {
-			return nEns(3);
+			return tjekOmDerErSåMangeEns(3);
 		}
 
 		public boolean toEns() {
-			return nEns(3);
+			return tjekOmDerErSåMangeEns(3);
 		}
 
 		public boolean etPar() {
-			return nEns(3);
-		}
-
-		public boolean nEns(int antalEns) {
-			for (int værdi = 1; værdi <= 6; værdi++) {
-				if (antalDerViser(værdi) == antalEns) return true;
-			}
-			return false;
+			return tjekOmDerErSåMangeEns(3);
 		}
 
 		public boolean hus() {
@@ -94,19 +129,6 @@ public class Opg_4_5_2__3 {
 			return antalPar == 2;
 		}
 
-		public boolean storStraight() {
-			for (int værdi = 2; værdi <= 6; værdi++) {
-				if (antalDerViser(værdi) != 1) return false;
-			}
-			return true;
-		}
-
-		public boolean lilleStraight() {
-			for (int værdi = 1; værdi <= 5; værdi++) {
-				if (antalDerViser(værdi) != 1) return false;
-			}
-			return true;
-		}
 
 		public String beskrivelse() {
 			if (femEns()) return "Fem ens";

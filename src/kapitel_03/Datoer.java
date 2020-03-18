@@ -28,14 +28,14 @@ public class Datoer
 		alderMs = nuMs - jacobMs;
 
 		// Hvornår var han halvt så gammel?
-		jacob.setTime(nuMs - alderMs/2);
-		System.out.println("Jacob var halvt så gammel "+jacob);
+		jacob.setTime(nuMs - alderMs / 2);
+		System.out.println("Jacob var halvt så gammel " + jacob);
 
-		SimpleDateFormat df = new SimpleDateFormat("D/M YYYY");
-		System.out.println("Jacob var halvt så gammel d. "+df.format(jacob));
+		SimpleDateFormat df = new SimpleDateFormat("dd/MM yyyy");
+		System.out.println("Jacob var halvt så gammel d. " + df.format(jacob));
 
 		System.out.println("Jacob var halvt så gammel "
-						+DateFormat.getDateTimeInstance().format(jacob));
+						+ DateFormat.getDateTimeInstance().format(jacob));
 
 	}
 }

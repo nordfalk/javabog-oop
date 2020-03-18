@@ -68,11 +68,11 @@ public class Opg_4_5_2__3 {
 		 * @return true hvis der er en 1'er, 2'er, 3'er, 4'er og en 5'er.
 		 */
 		public boolean lilleStraight() {
-			if (antalDerViser(1) < 1) return false;
-			if (antalDerViser(2) < 1) return false;
-			if (antalDerViser(3) < 1) return false;
-			if (antalDerViser(4) < 1) return false;
-			if (antalDerViser(5) < 1) return false;
+			if (antalDerViser(1) == 0) return false;
+			if (antalDerViser(2) == 0) return false;
+			if (antalDerViser(3) == 0) return false;
+			if (antalDerViser(4) == 0) return false;
+			if (antalDerViser(5) == 0) return false;
 			return true;
 		}
 
@@ -91,7 +91,7 @@ public class Opg_4_5_2__3 {
 
 		public boolean tjekOmDerErSåMangeEns(int ønsketAntalEns) {
 			for (int værdi = 1; værdi <= 6; værdi++) {
-				if (antalDerViser(værdi) >= ønsketAntalEns) return true;
+				if (antalDerViser(værdi) == ønsketAntalEns) return true;
 			}
 			return false;
 		}
@@ -110,11 +110,11 @@ public class Opg_4_5_2__3 {
 		}
 
 		public boolean toEns() {
-			return tjekOmDerErSåMangeEns(3);
+			return tjekOmDerErSåMangeEns(2);
 		}
 
 		public boolean etPar() {
-			return tjekOmDerErSåMangeEns(3);
+			return tjekOmDerErSåMangeEns(1);
 		}
 
 		public boolean hus() {

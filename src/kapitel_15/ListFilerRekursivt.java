@@ -1,9 +1,9 @@
 package kapitel_15;
-import java.io.*;
-public class ListFilerRekursivt
-{
-	public static void main(String[] arg)
-	{
+
+import java.io.File;
+
+public class ListFilerRekursivt {
+	public static void main(String[] arg) {
 		File m = new File(".");  // repræsenterer den aktuelle mappe
 		listMappe(m);
 	}

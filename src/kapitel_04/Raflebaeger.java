@@ -37,10 +37,9 @@ public class Raflebaeger
 	{
 		int resultat;
 		resultat = 0;
-		for (Terning t : terninger) 
-		{
+		for (Terning t : terninger) {
 			int terningensVærdi = t.getVærdi();
-			resultat = resultat +  terningensVærdi;
+			resultat = resultat + terningensVærdi;
 		}
 		return resultat;
 	}

@@ -44,9 +44,10 @@ public class ChatServer
 
 			if (kommando.equals("SEND")) {
 				String tekst = scanner.nextLine();
-				System.out.println("tekst: "+tekst);
-				sendTilModtagere(socket+" skrev:", modtagere);
+				System.out.println("tekst: " + tekst);
+				sendTilModtagere(socket + " skrev:", modtagere);
 				sendTilModtagere(tekst, modtagere);
+				socket.close();
 			} else if (kommando.equals("MODTAG")) {
 				String tidspunkt = String.format("%tT %1$tD", new Date());
 				sendTilModtagere(socket+" hoppede på klokken "+tidspunkt, modtagere);
@@ -56,9 +57,9 @@ public class ChatServer
 				os.write("--------------------------\n".getBytes());
 				modtagere.add(os);
 			} else {
-				System.out.println("Ukendt kommando "+kommando+" fra "+socket);
+				System.out.println("Ukendt kommando " + kommando + " fra " + socket);
+				socket.close();
 			}
-			socket.close();
 		}
 	}
 }

@@ -12,8 +12,8 @@ public class VisGrafiskBilletautomat
 		Billetautomat ba = new Billetautomat(10);
 		panel.setAutomatlogik(ba);
 
-		JFrame vindue = new JFrame("Grafikpanel");    // opret et vindue på skærmen
-		vindue.add( panel );                          // vis panelet i vinduet
+		JFrame vindue = new JFrame("FanerPanel");    // opret et vindue på skærmen
+		vindue.add(panel);                          // vis panelet i vinduet
 
 		vindue.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE); // reagér på luk
 		vindue.pack();                                // sæt vinduets størrelse

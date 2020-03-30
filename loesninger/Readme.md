@@ -3,12 +3,14 @@
 Dette er vejlende opgavebesvarelser til opgaverne i bogen
 "Objektorienteret programmering i Java" af Jacob Nordfalk.
 
-Bemærk du kun har adgang til besvarelser af
+Du har adgang til besvarelser af
 de **ulige** opgaver, såsom Opg_2_2_8__1, Opg_2_2_8__3 etc.
 
 Finder du fejl eller mangler er du velkommen til at oprette et issue
 eller pull request på https://github.com/nordfalk/javabog-oop - eller
 sende rettelser direkte til mig på jacob.nordfalk@gmail.com
+
+De [lige besvarelser](.gitignore) er forbehold undervisere.
 
 ## Om besvarelserne
 
@@ -25,8 +27,8 @@ såsom på Opg_2_2_8__2, Opg_2_2_8__4 etc er
 forbeholdt undervisere på institutioner, der har købt et eller 
 flere klassesæt og fås kun ved personlig henvendelse. 
 
-Her er 
-[listen over vejledende besvarelser](.gitignore) forbehold undervisere.
+Her er [listen over vejledende besvarelser](.gitignore) forbeholdt
+undervisere.
 
 Februar 2020
 

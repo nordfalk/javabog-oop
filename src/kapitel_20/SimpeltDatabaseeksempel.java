@@ -9,18 +9,17 @@ public class SimpeltDatabaseeksempel
 		Connection forb = DriverManager.getConnection("jdbc:mysql:///test");
 		Statement stmt = forb.createStatement();
 
-    //stmt.executeUpdate("create table KUNDER (NAVN varchar(32), KREDIT float)" );
+		//stmt.executeUpdate("create table KUNDER (NAVN varchar(32), KREDIT float)" );
 
-    stmt.executeUpdate("insert into KUNDER values('Jacob', -1799)");
-    stmt.executeUpdate("insert into KUNDER values('Robert', -1799)");
+		stmt.executeUpdate("insert into KUNDER values('Jacob', -1799)");
+		stmt.executeUpdate("insert into KUNDER values('Robert', -1799)");
 
-      		// forespørgsler
+		// forespørgsler
 		ResultSet rs = stmt.executeQuery("select NAVN, KREDIT from KUNDER");
-		while (rs.next())
-		{
-      String navn = rs.getString("NAVN");
-      double kredit = rs.getDouble("KREDIT");
-			System.out.println(navn+" "+kredit);
+		while (rs.next()) {
+			String navn = rs.getString("NAVN");
+			double kredit = rs.getDouble("KREDIT");
+			System.out.println(navn + " " + kredit);
 		}
-  }
+	}
 }

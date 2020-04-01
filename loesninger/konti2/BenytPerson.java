@@ -1,4 +1,4 @@
-package loesninger.konti2;
+package konti2;
 
 public class BenytPerson {
 	public static void main(String[] arg) {

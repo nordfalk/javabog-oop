@@ -11,8 +11,16 @@ public class BenytFaneblade
 		faneblade.add("PanelMedBorderLayout", new PanelMedBorderLayout());
 		faneblade.add("PanelMedGridBagLayout", new PanelMedGridBagLayout());
 
+		/* hvis fanernes titler skal skjules
+		faneblade.setUI(new javax.swing.plaf.basic.BasicTabbedPaneUI() {
+			protected int calculateTabAreaHeight(int t, int h, int m) {
+				return 0;
+			}
+		});
+		*/
+
 		JFrame vindue = new JFrame("Faneblade");
-		vindue.add( faneblade );
+		vindue.add(faneblade);
 		vindue.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE); // reagér på luk
 		vindue.pack();                  // lad vinduet selv bestemme sin størrelse
 		vindue.setVisible(true);                                  // åbn vinduet

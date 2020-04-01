@@ -1,5 +1,4 @@
-//Malene Andersen
-package loesninger.konti1;
+package konti1;
 
 public class BenytPerson {
 	public static void main(String[] arg) {

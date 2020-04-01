@@ -38,7 +38,7 @@ public class VisTransaktionsisolering {
 					//stmt.executeUpdate("update KUNDER set KREDIT=55555 WHERE navn='Robert'");
 				}
 				String res = læsIndhold(stmt);
-				System.out.println("Læsning fik: '" + res + "'");
+				System.out.println("Læsning fik: " + res);
 
 				Thread.sleep(1000);
 			}
@@ -64,7 +64,7 @@ public class VisTransaktionsisolering {
 
 	private static void skriv(int transaktionsisolering) {
 		try {
-			String tråd = Thread.currentThread().getName() + "                                      ";
+			String tråd = "                                           " + Thread.currentThread().getName();
 			Connection forb = DriverManager.getConnection("jdbc:mysql:///test?useSSL=false");
 			if (transaktionsisolering > 0) forb.setTransactionIsolation(transaktionsisolering);
 			if (transaktionsisolering > 0) forb.setAutoCommit(false);
@@ -72,21 +72,21 @@ public class VisTransaktionsisolering {
 			Statement stmt = forb.createStatement();
 
 			stmt.executeUpdate("delete from KUNDER"); // slet alle rækker fra tabellen
-			System.out.println(tråd + " slettet alle rækker, så tabellen er tom - " + læsIndhold(stmt));
+			System.out.println(tråd + " slettet alle rækker, tabel er tom: " + læsIndhold(stmt));
 			Thread.sleep(1000);
 
 			stmt.executeUpdate("insert into KUNDER values('Jacob', 20)");
 			stmt.executeUpdate("insert into KUNDER values('Robert', 20)");
-			System.out.println(tråd + " indsat Jacob og Robert med 20 kr        - " + læsIndhold(stmt));
+			System.out.println(tråd + " indsat Jacob og Robert med 20 kr:  " + læsIndhold(stmt));
 			Thread.sleep(1000);
 
 			int robertKredit = 100 + transaktionsisolering; // 100, 101, 102, 104 eller 108
 			stmt.executeUpdate("update KUNDER set KREDIT=" + robertKredit + " WHERE navn='Robert'");
-			System.out.println(tråd + " Robert har nu " + robertKredit + " kr        - " + læsIndhold(stmt));
+			System.out.println(tråd + " sat Roberts kredit til " + robertKredit + " kr:     " + læsIndhold(stmt));
 			Thread.sleep(1000);
 
 			if (transaktionsisolering > 0) forb.commit();
-			System.out.println(tråd + " afslutter");
+			System.out.println(tråd + " afslutter                          " + læsIndhold(stmt));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

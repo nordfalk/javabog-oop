@@ -1,4 +1,4 @@
-package loesninger.konti2;
+package konti2;
 
 import java.util.Date;
 

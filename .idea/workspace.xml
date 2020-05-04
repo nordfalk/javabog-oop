@@ -7,37 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28fdce36-39d3-4b19-9d4a-5dbb7b8f6606" name="Default" comment="småting">
-      <change afterPath="$PROJECT_DIR$/loesninger/kapitel_05/Opg_5_1_4__1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loesninger/kapitel_05/Opg_5_3_2__1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loesninger/kapitel_06/Opg_6_8__1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loesninger/kapitel_08/Opg_8_6__1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loesninger/kapitel_03/Opg_3_5_7__7d.java" beforeDir="false" afterPath="$PROJECT_DIR$/loesninger/kapitel_03/Opg_3_5_7__7d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loesninger/kapitel_04/Opg_4_10__3.java" beforeDir="false" afterPath="$PROJECT_DIR$/loesninger/kapitel_04/Opg_4_10__3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loesninger/kapitel_04/Opg_4_2_1__1.java" beforeDir="false" afterPath="$PROJECT_DIR$/loesninger/kapitel_04/Opg_4_2_1__1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loesninger/konti1/BenytPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/loesninger/konti1/BenytPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loesninger/konti1/Bil.java" beforeDir="false" afterPath="$PROJECT_DIR$/loesninger/konti1/Bil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loesninger/konti1/Konto.java" beforeDir="false" afterPath="$PROJECT_DIR$/loesninger/konti1/Konto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loesninger/konti1/Person-diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/loesninger/konti1/Person-diagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loesninger/konti1/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/loesninger/konti1/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loesninger/konti1/Postering.java" beforeDir="false" afterPath="$PROJECT_DIR$/loesninger/konti1/Postering.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loesninger/konti2/BenytPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/loesninger/konti2/BenytPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loesninger/konti2/Bil.java" beforeDir="false" afterPath="$PROJECT_DIR$/loesninger/konti2/Bil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loesninger/konti2/Hjul.java" beforeDir="false" afterPath="$PROJECT_DIR$/loesninger/konti2/Hjul.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loesninger/konti2/Konto.java" beforeDir="false" afterPath="$PROJECT_DIR$/loesninger/konti2/Konto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loesninger/konti2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/loesninger/konti2/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loesninger/konti2/Postering.java" beforeDir="false" afterPath="$PROJECT_DIR$/loesninger/konti2/Postering.java" afterDir="false" />
-    </list>
-    <list id="a0c95f7a-4d8d-4a12-9964-d3d2c197331f" name="versioner ikke" comment="">
-      <change afterPath="$PROJECT_DIR$/src/kapitel_03/BenytScannerHentJavabog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kapitel_11/intellij/BenytIntelliJGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kapitel_11/intellij/Grafikpanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kapitel_11/intellij/MinGuiForm.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kapitel_11/intellij/MinGuiForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/genfiles.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop-projekt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/oop-projekt.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,7 +37,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -84,104 +52,12 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15717375" />
+    <property name="project.structure.side.proportion" value="0.085689805" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="kapitel_10" />
-      <recent name="kapitel_05" />
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/loesninger/kapitel_04" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="kapitel_05" />
-      <recent name="kapitel_04" />
-      <recent name="kapitel_02" />
-      <recent name="kapitel_17" />
-      <recent name="kapitel_16" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/loesninger/kapitel_20" />
-      <recent name="$PROJECT_DIR$/loesninger/kapitel_10" />
-      <recent name="$PROJECT_DIR$/loesninger" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.BenytPerson">
-    <configuration name="BenytPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="konti1.BenytPerson" />
-      <module name="oop-projekt" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="konti1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Opg_10_3__3__Digitalur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kapitel_10.Opg_10_3__3__Digitalur" />
-      <module name="oop-projekt" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kapitel_10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Opg_12_6__1__TegnbartHus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kapitel_12.Opg_12_6__1__TegnbartHus" />
-      <module name="oop-projekt" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kapitel_12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Opg_17_3__2__Primtal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kapitel_17.Opg_17_3__2__Primtal" />
-      <module name="oop-projekt" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kapitel_17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpilGrafiskMatador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kapitel_10.Opg_10_3_1_matador.nyt.SpilGrafiskMatador" />
-      <module name="oop-projekt" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kapitel_10.Opg_10_3_1_matador.nyt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -204,34 +80,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.SpilGrafiskMatador" />
-      <item itemvalue="Application.Opg_10_3__3__Digitalur" />
-      <item itemvalue="Application.Opg_12_6__1__TegnbartHus" />
-      <item itemvalue="Application.Opg_17_3__2__Primtal" />
-      <item itemvalue="Application.BenytPerson" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.BenytPerson" />
-        <item itemvalue="Application.Opg_17_3__2__Primtal" />
-        <item itemvalue="Application.Opg_12_6__1__TegnbartHus" />
-        <item itemvalue="Application.Opg_10_3__3__Digitalur" />
-        <item itemvalue="Application.SpilGrafiskMatador" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -318,9 +166,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -339,6 +185,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -366,6 +213,10 @@
     <state x="780" y="403" width="585" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/0.1080.1920.1080@0.0.1920.1080" timestamp="1582232858188" />
     <state x="780" y="1483" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1582303200303" />
     <state x="780" y="420" width="609" height="381" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1582235735220" />
+    <state x="918" y="268" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588609726329">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="918" y="268" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1588609726329" />
     <state x="663" y="499" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582233655538">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -384,52 +235,52 @@
       <screen x="0" y="1080" width="1920" height="1080" />
     </state>
     <state x="693" y="1368" width="524" height="502" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.27.1920.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1582300678320" />
-    <state x="76" y="98" width="1502" height="858" key="CommitChangelistDialog2" timestamp="1582325550486">
+    <state x="76" y="98" width="1502" height="858" key="CommitChangelistDialog2" timestamp="1588610181034">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="76" y="26" width="1766" height="928" key="CommitChangelistDialog2/0.0.1920.1080/0.1080.1920.1080@0.0.1920.1080" timestamp="1582230645469" />
-    <state x="76" y="98" width="1502" height="858" key="CommitChangelistDialog2/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1582325550486" />
-    <state x="0" y="27" width="1898" height="894" maximized="true" key="DiffContextDialog" timestamp="1582325546394">
+    <state x="76" y="98" width="1502" height="858" key="CommitChangelistDialog2/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1588610181034" />
+    <state x="0" y="27" width="1898" height="894" maximized="true" key="DiffContextDialog" timestamp="1588610157757">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="0" y="0" width="1898" height="894" key="DiffContextDialog/0.0.1920.1080/0.1080.1920.1080@0.0.1920.1080" timestamp="1582230577751" />
-    <state x="0" y="27" width="1916" height="1053" maximized="true" key="DiffContextDialog/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1582325546394" />
+    <state x="0" y="27" width="1916" height="1053" maximized="true" key="DiffContextDialog/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1588610157757" />
     <state x="956" y="301" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581152266399">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="956" y="301" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1580177533138" />
     <state x="956" y="301" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1581152266399" />
-    <state width="1874" height="248" key="GridCell.Tab.0.bottom" timestamp="1582325462944">
+    <state width="1199" height="167" key="GridCell.Tab.0.bottom" timestamp="1588610209410">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1686" height="544" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.1080.1920.1080@0.0.1920.1080" timestamp="1582232579233" />
     <state width="1625" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.1080.1920.1080@0.1080.1920.1080" timestamp="1582198754627" />
     <state width="1874" height="340" key="GridCell.Tab.0.bottom/0.27.1920.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1582310699385" />
-    <state width="1874" height="248" key="GridCell.Tab.0.bottom/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1582325462944" />
+    <state width="1199" height="167" key="GridCell.Tab.0.bottom/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1588610209410" />
     <state width="1625" height="424" key="GridCell.Tab.0.bottom/0.27.1920.2133@0.27.1920.2133" timestamp="1581333519410" />
-    <state width="1874" height="248" key="GridCell.Tab.0.center" timestamp="1582325462944">
+    <state width="1199" height="167" key="GridCell.Tab.0.center" timestamp="1588610209410">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1686" height="544" key="GridCell.Tab.0.center/0.0.1920.1080/0.1080.1920.1080@0.0.1920.1080" timestamp="1582232579233" />
     <state width="1625" height="219" key="GridCell.Tab.0.center/0.0.1920.1080/0.1080.1920.1080@0.1080.1920.1080" timestamp="1582198754627" />
     <state width="1874" height="340" key="GridCell.Tab.0.center/0.27.1920.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1582310699385" />
-    <state width="1874" height="248" key="GridCell.Tab.0.center/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1582325462944" />
+    <state width="1199" height="167" key="GridCell.Tab.0.center/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1588610209410" />
     <state width="1625" height="424" key="GridCell.Tab.0.center/0.27.1920.2133@0.27.1920.2133" timestamp="1581333519410" />
-    <state width="1874" height="248" key="GridCell.Tab.0.left" timestamp="1582325462944">
+    <state width="1199" height="167" key="GridCell.Tab.0.left" timestamp="1588610209410">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1686" height="544" key="GridCell.Tab.0.left/0.0.1920.1080/0.1080.1920.1080@0.0.1920.1080" timestamp="1582232579233" />
     <state width="1625" height="219" key="GridCell.Tab.0.left/0.0.1920.1080/0.1080.1920.1080@0.1080.1920.1080" timestamp="1582198754627" />
     <state width="1874" height="340" key="GridCell.Tab.0.left/0.27.1920.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1582310699385" />
-    <state width="1874" height="248" key="GridCell.Tab.0.left/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1582325462944" />
+    <state width="1199" height="167" key="GridCell.Tab.0.left/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1588610209410" />
     <state width="1625" height="424" key="GridCell.Tab.0.left/0.27.1920.2133@0.27.1920.2133" timestamp="1581333519410" />
-    <state width="1874" height="248" key="GridCell.Tab.0.right" timestamp="1582325462944">
+    <state width="1199" height="167" key="GridCell.Tab.0.right" timestamp="1588610209410">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1686" height="544" key="GridCell.Tab.0.right/0.0.1920.1080/0.1080.1920.1080@0.0.1920.1080" timestamp="1582232579233" />
     <state width="1625" height="219" key="GridCell.Tab.0.right/0.0.1920.1080/0.1080.1920.1080@0.1080.1920.1080" timestamp="1582198754627" />
     <state width="1874" height="340" key="GridCell.Tab.0.right/0.27.1920.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1582310699385" />
-    <state width="1874" height="248" key="GridCell.Tab.0.right/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1582325462944" />
+    <state width="1199" height="167" key="GridCell.Tab.0.right/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1588610209410" />
     <state width="1625" height="424" key="GridCell.Tab.0.right/0.27.1920.2133@0.27.1920.2133" timestamp="1581333519410" />
     <state width="1625" height="306" key="GridCell.Tab.1.bottom" timestamp="1582235912154">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -451,11 +302,11 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="742" y="265" width="425" height="575" key="RollbackChangesDialog/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1582244763166" />
-    <state x="492" y="194" width="1387" height="820" key="SettingsEditor" timestamp="1582233554289">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="492" y="216" width="1387" height="820" key="SettingsEditor" timestamp="1588609845182">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="492" y="194" width="1387" height="820" key="SettingsEditor/0.0.1920.1080/0.1080.1920.1080@0.0.1920.1080" timestamp="1582233554289" />
-    <state x="492" y="216" width="1387" height="520" key="SettingsEditor/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1581774153527" />
+    <state x="492" y="216" width="1387" height="520" key="SettingsEditor/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1588609845182" />
     <state x="492" y="455" width="901" height="448" key="SettingsEditor/0.27.1920.2133@0.27.1920.2133" timestamp="1581321654821" />
     <state x="802" y="407" width="303" height="165" key="VCS.ChangelistChooser" timestamp="1582230639446">
       <screen x="0" y="0" width="1920" height="1080" />

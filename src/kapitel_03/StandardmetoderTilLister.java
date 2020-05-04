@@ -24,14 +24,14 @@ public class StandardmetoderTilLister
 
 		ArrayList<Integer> liste2 = new ArrayList<>();
 		liste2.addAll(liste);         // tilføj alle elementer fra liste til liste2
-		System.out.println("Kopien liste2 indeh: "+liste2);
+		System.out.println("Kopien liste2 indeh: " + liste2);
 
-		liste.subList(0,5).clear();   // fjern element på plads nr 0 til 4 fra liste
-		System.out.println("Liste uden elem 0-5: "+liste);
+		liste.subList(0, 5).clear();   // fjern element på plads nr 0 til 4 fra liste
+		System.out.println("Liste uden elem 0-5: " + liste);
 
 		liste2.removeAll(liste);       // fjern alt fra liste2 som findes i liste
-		System.out.println("Liste2 uden de andre:"+liste2);
+		System.out.println("Liste2 uden de andre:" + liste2);
 
-		liste2.forEach((n) -> System.out.print(n + "x10 er " + n*10+ ". ")); // udfør på elementerne
-  }
+		liste2.forEach(n -> System.out.print(n + " gange 10 er " + n * 10 + ".  ")); // udfør på elementerne
+	}
 }
